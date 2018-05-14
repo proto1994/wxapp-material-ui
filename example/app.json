@@ -1,0 +1,15 @@
+{
+    "pages": [
+      "pages/button/index",
+      "pages/index/index"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#FAFAFA",
+      "navigationBarTitleText": "wxapp-material-ui",
+      "navigationBarTextStyle": "black",
+      "backgroundTextStyle": "dark",
+      "backgroundColor": "#f9f9f9"
+    },
+    "debug": true
+  }
+  

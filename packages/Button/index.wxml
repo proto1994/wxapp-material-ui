@@ -1,0 +1,9 @@
+<button 
+  class="{{buttonClass}} button-class"
+  disabled="{{disabled}}"
+  hover-class="{{buttonHoverClass}}"
+  bindtap="bindtap"
+  style="{{style}}"
+  >
+  <slot></slot>
+</button>

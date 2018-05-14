@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "M-Button": "../../../dist/Button/index",
+        "M-Icon": "../../../dist/Icon/index"
+    } 
+}

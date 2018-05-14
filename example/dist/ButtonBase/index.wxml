@@ -1,0 +1,10 @@
+<button
+    class="button-base button-class"
+    bindtap="bindtap"
+    hover-class="button-hover-class"
+    >
+    <slot></slot>
+    <!-- <text class="{{rippleClass}}">
+      <text wx:if="{{rippleChildVisible}}" class="{{rippleChildClass}}"></text>
+    </text> -->
+</button>

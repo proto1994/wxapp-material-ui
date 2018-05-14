@@ -1,0 +1,28 @@
+{
+  "name": "wxapp-material-ui",
+  "version": "1.0.0",
+  "description": "基于material-ui的微信小程序组件",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node scripts/build-dev.js --color"
+  },
+  "author": "proto1994",
+  "license": "ISC",
+  "devDependencies": {
+    "accord": "^0.29.0",
+    "classnames": "^2.2.5",
+    "fs-extra": "^6.0.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-less": "^3.5.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-remove-logging": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.8",
+    "less": "^3.0.4",
+    "node-watch": "^0.5.8",
+    "shelljs": "^0.8.2",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}

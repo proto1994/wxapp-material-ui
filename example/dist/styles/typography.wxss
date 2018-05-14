@@ -1,0 +1,5 @@
+.button {
+  font-size: 28rpx;
+  text-transform: 'uppercase';
+  font-weight: 500;
+}

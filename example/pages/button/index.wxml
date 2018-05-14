@@ -1,0 +1,102 @@
+<view class="page">
+  <view>
+    <view>Flat Buttons</view>
+    <M-Button bindtap="bindtap">default
+    </M-Button>
+    <M-Button color="primary" bindtap="bindtap">primary
+    </M-Button>
+    <M-Button color="secondary">secondary
+    </M-Button>
+    <M-Button color="secondary" disabled bindtap="bindtap">secondary
+    </M-Button>
+    <M-Button url="/pages/index/index">jump
+    </M-Button>
+  </view>
+  <view>
+    <view>Outlined Buttons</view>
+    <M-Button variant="outlined">default
+    </M-Button>
+
+    <M-Button color="primary" variant="outlined">PRIMARY
+    </M-Button>
+
+    <M-Button color="secondary" variant="outlined">secondary
+    </M-Button>
+
+    <M-Button disabled variant="outlined">disbaled
+    </M-Button>
+
+  </view>
+
+  <view>
+    <view>Raised Buttons</view>
+    <M-Button variant="raised">default
+    </M-Button>
+
+    <M-Button color="primary" variant="raised">PRIMARY
+    </M-Button>
+
+    <M-Button color="secondary" variant="raised">secondary
+    </M-Button>
+
+    <M-Button disabled variant="raised" color="primary">disbaled
+    </M-Button>
+
+  </view>
+
+  <view>
+    <view>Floating Action Buttons</view>
+    <M-Button variant="fab">
+      <M-Icon>book</M-Icon>
+    </M-Button>
+
+    <M-Button color="primary" variant="fab">
+      <M-Icon>call</M-Icon>
+    </M-Button>
+
+    <M-Button color="secondary" variant="fab">
+      <M-Icon>chat</M-Icon>
+    </M-Button>
+
+    <M-Button disabled variant="fab" color="primary">
+      <M-Icon>mail_outline</M-Icon>
+    </M-Button>
+  </view>
+
+  <view>
+    <view>size</view>
+    <M-Button mini variant="fab">
+      <M-Icon>book</M-Icon>
+    </M-Button>
+
+    <M-Button color="primary" size="small" variant="raised">
+      small
+    </M-Button>
+
+    <M-Button color="secondary" size="large" variant="raised">
+      large
+    </M-Button>
+
+    <M-Button disabled variant="fab" color="primary">
+      <M-Icon>mail_outline</M-Icon>
+    </M-Button>
+
+    <M-Button fullWidth variant="raised" color="primary">
+      fullWidth
+    </M-Button>
+
+  </view>
+
+  <view>
+    <view>Buttons with icons and label</view>
+    <M-Button variant="raised" color="primary">
+      delete
+      <M-Icon type="222" styles="margin-left:16rpx;">book</M-Icon>
+    </M-Button>
+
+    <M-Button variant="raised" color="secondary">
+      <M-Icon type="222" styles="margin-right:16rpx;">chat</M-Icon>
+      chat
+    </M-Button>
+  </view>
+</view>
