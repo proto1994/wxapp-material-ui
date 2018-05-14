@@ -4,6 +4,7 @@
   hover-class="{{buttonHoverClass}}"
   bindtap="bindtap"
   style="{{style}}"
+  loading="{{loading}}"
   >
   <slot></slot>
 </button>

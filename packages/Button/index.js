@@ -36,6 +36,10 @@ Component({
     url: {
       type: String,
       value: ''
+    },
+    loading: {
+      type: Boolean,
+      value: false
     }
   },
   externalClasses: ['button-class'],
