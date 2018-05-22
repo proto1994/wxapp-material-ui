@@ -1,0 +1,6 @@
+<view class="classes root {{!disableActionSpacing ? 'action':''}}" 
+  styles="{{styles}}"
+>
+  <slot></slot>
+</view>
+

@@ -1,0 +1,8 @@
+<Paper paper-class="card-class" 
+  card-class="card"
+  elevation="{{raised ? 8 : 2}}"
+  styles="{{styles}}"
+>
+  <slot></slot>
+</Paper>
+

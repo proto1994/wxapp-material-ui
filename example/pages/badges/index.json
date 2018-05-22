@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "M-Badge": "../../../dist/Badge/index",
+        "M-Avatar": "../../../dist/Avatar/index",
+        "M-Icon": "../../../dist/Icon/index",
+        "M-Button": "../../../dist/Button/index",
+        "M-Typography": "../../../dist/Typography/index"
+    } 
+}

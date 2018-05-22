@@ -1,0 +1,42 @@
+<view>
+  <view class="card">
+    <view class="name">Grid</view>
+    <view class="description">
+      Material Design’s responsive UI is based on a 12-column grid layout. This grid creates visual consistency between layouts
+      while allowing flexibility across a wide variety of designs.
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="name">How it works</view>
+    <view class="description">
+      <view>The grid system is implemented with the Grid component: </view>
+      <view>It uses CSS’s Flexible Box module for high flexibility. </view>
+      <view>There are two type of layout: containers and items. </view>
+      <view>Item widths are set in percentages, so they’re always fluid and sized relative to their parent element.</view>
+      <view>Items have padding to create the spacing between individual items.</view>
+    </view>
+  </view>
+
+
+  <view class="card">
+    <view class="name">Interactive</view>
+    <view class="description">Below is an interactive demo that lets you explore the visual results of the different settings:</view>
+    <Grid container styles="margin: 30rpx 0;">
+      <Grid column="{{10}}" grid-class="grid-class" item>
+        哈哈
+      </Grid>
+      <Grid grid-class="grid-class" item>
+        哈哈
+      </Grid>
+    </Grid>
+    <Grid container
+          alignItems="center" 
+          justify="center"
+          styles="width: 100%;height: 300rpx;" 
+          direction="column">
+      <Grid grid-class="grid-class" item>hah</Grid>
+      <Grid grid-class="grid-class" item>hah</Grid>
+    </Grid>
+  </view>
+</view>

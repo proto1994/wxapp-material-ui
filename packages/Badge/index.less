@@ -1,0 +1,42 @@
+@import '../styles/index.less';
+@RADIUS: 24rpx;
+.root {
+  position: relative;
+  display: inline-flex;
+  // For correct alignment with the text.
+  vertical-align: middle;
+}
+.badge {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  top: -@RADIUS;
+  right: -@RADIUS;
+  font-family: @fontFamily;
+  font-weight:@fontWeightLight;
+  font-size: @RADIUS;
+  width: @RADIUS * 2;
+  height: @RADIUS * 2;
+  border-radius: 50%;
+  z-index: 1; // Render the badge on top of potential ripples.
+}
+.color-default {
+  background-color: @commonWhite;
+  color: @lightTextPrimary;
+}
+.color-primary {
+  background-Color: @primaryMain;
+  color: @commonWhite;
+};
+.color-secondary {
+  background-color: @secondaryMain;
+  color: @commonWhite;
+}
+.color-error {
+  background-color: @errorMain;
+  color: @commonWhite;
+};

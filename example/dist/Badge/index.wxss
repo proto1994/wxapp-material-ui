@@ -1,3 +1,8 @@
+.button {
+  font-size: 28rpx;
+  text-transform: 'uppercase';
+  font-weight: 500;
+}
 .m-ui__shadow0 {
   box-shadow: none;
 }
@@ -24,4 +29,43 @@
 }
 .m-ui__shadow8 {
   box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.root {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+.badge {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  top: -24rpx;
+  right: -24rpx;
+  font-family: '"Roboto", "Helvetica", "Arial", sans-serif';
+  font-weight: 300;
+  font-size: 24rpx;
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+  z-index: 1;
+}
+.color-default {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+}
+.color-primary {
+  background-Color: #3f51b5;
+  color: #fff;
+}
+.color-secondary {
+  background-color: #f50057;
+  color: #fff;
+}
+.color-error {
+  background-color: #f44336;
+  color: #fff;
 }

@@ -1,0 +1,21 @@
+<view >
+  <Typography 
+      color="primary"
+      variant="body1" 
+      noWrap="{{false}}"
+      noWrap
+      paragraph
+      styles="width: 500rpx;border-bottom: 1px solid red;"
+      align="center">
+      你好啊尽量简单垃圾地方了；大家乐福；加速度计；老夫科技阿萨德积分离开；阿斯加德福利；卡设计费；雷克萨
+    </Typography>
+
+    <Typography 
+    color="primary"
+    variant="body1" 
+    noWrap="{{false}}"
+    align="center">
+    你好啊尽量简单垃圾地方了；大家乐福；加速度计；老夫科技阿萨德积分离开；阿斯加德福利；卡设计费；雷克萨
+    你好啊尽量简单垃圾地方了；大家乐福；加速度计；老夫科技阿萨德积分离开；阿斯加德福利；卡设计费；雷克萨你好啊尽量简单垃圾地方了；大家乐福；加速度计；老夫科技阿萨德积分离开；阿斯加德福利；卡设计费；雷克萨
+  </Typography>
+</view>

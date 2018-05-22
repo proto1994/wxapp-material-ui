@@ -1,0 +1,7 @@
+<view class="classes {{variant}} align-{{align}} color-{{color}} {{paragraph ? 'paragraph':''}} {{noWrap ? 'no-wrap':''}}" 
+  style="{{styles}}"
+>
+  <slot></slot>
+</view>
+
+                            

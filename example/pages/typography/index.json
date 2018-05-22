@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "Typography": "../../../dist/Typography/index"
+    } 
+}

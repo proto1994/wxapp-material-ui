@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "M-Avatar": "../../../dist/Avatar/index",
+        "M-Icon": "../../../dist/Icon/index"
+    } 
+}

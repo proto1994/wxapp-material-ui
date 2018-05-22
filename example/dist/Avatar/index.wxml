@@ -1,0 +1,14 @@
+<view
+  class="root color-default classes" 
+  style="{{styles}}"
+>
+  <block wx:if="{{src}}">
+    <image 
+      src="{{src}}"
+      class="img"
+      >
+    </image>
+  </block>
+  <slot></slot>
+</view>
+

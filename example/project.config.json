@@ -21,13 +21,54 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "paper",
+					"pathName": "pages/paper/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "typography",
+					"pathName": "pages/typography/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "card",
+					"pathName": "pages/card/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "avatar",
+					"pathName": "pages/avatar/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "button",
+					"pathName": "pages/button/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "badges",
+					"pathName": "pages/badges/index",
+					"query": ""
+				}
+			]
 		}
 	}
 }

@@ -1,0 +1,128 @@
+@import '../styles/index.less';
+.root {
+  display: block;
+  margin: 0;
+}
+// display4: theme.typography.display4
+// display3: theme.typography.display3
+// display2: theme.typography.display2
+// display1: theme.typography.display1
+// headline: theme.typography.headline
+// title: theme.typography.title
+// subheading: theme.typography.subheading
+// body2: theme.typography.body2
+.display4 {
+  font-size: 130rpx;
+  font-weight: @fontWeightLight;
+  font-family: @fontFamily;
+  letter-spacing: -.04em;
+  line-height: round(128 / 112)em;
+  margin-left: -.04em;
+  color: @lightTextSecondary;
+}
+.display3 {
+  font-size: 112rpx;
+  font-weight: @fontWeightRegular;
+  font-family: @fontFamily;
+  letter-spacing: -.02em;
+  line-height: round(73 / 56)em;
+  margin-left: -.02em;
+  color: @lightTextSecondary;
+}
+.display2 {
+  font-size: 90rpx;
+  font-weight: @fontWeightRegular;
+  font-family: @fontFamily;
+  line-height: round(48 / 45)em;
+  margin-left: -.02em;
+  color: @lightTextSecondary;
+}
+.display1 {
+  font-size: 68rpx;
+  font-weight: @fontWeightRegular;
+  font-family: @fontFamily;
+  line-height: round(41 / 34)em;
+  color: @lightTextSecondary;
+}
+.headline {
+  font-size: 48rpx;
+  font-weight: @fontWeightRegular;
+  font-family: @fontFamily;
+  line-height: round(32.5 / 24)em;
+  color: @lightTextPrimary;
+}
+.title {
+  font-size: 42rpx;
+  font-weight: @fontWeightMedium;
+  font-family: @fontFamily;
+  line-height: round(24.5 / 21)em;
+  color: @lightTextPrimary;
+}
+.subheading {
+  font-size: 32rpx;
+  font-weight: @fontWeightRegular;
+  font-family: @fontFamily;
+  line-height: round(24 / 16)em;
+  color: @lightTextPrimary;
+}
+.body2 {
+  font-size: 28rpx;
+  font-weight: @fontWeightMedium;
+  font-family: @fontFamily;
+  line-height: round(24 / 14)em;
+  color: @lightTextPrimary;
+}
+.body1 {
+  font-size: 28rpx;
+  font-weight: @fontWeightRegular;
+  font-family: @fontFamily;
+  line-height: round(20.5 / 14)em;
+  color: @lightTextPrimary;
+}
+.caption {
+  font-size: 24rpx;
+  font-weight: @fontWeightRegular;
+  font-family: @fontFamily;
+  line-height: round(16.5 / 12)em;
+  color: @lightTextSecondary;
+}
+// caption: theme.typography.caption
+// button: theme.typography.button
+.align-left {
+  text-align: left;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.align-justify {
+  text-align: justify;
+}
+.no-wrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.gutter-bottom {
+  margin-bottom: 0.35em;
+}
+.paragraph {
+  margin-bottom: @unit * 2;
+}
+.color-inherit {
+  color: inherit;
+}
+.color-primary {
+  color: @primaryMain;
+}
+.color-secondary {
+  color: @secondaryMain
+}
+.color-textSecondary {
+  color: @lightTextSecondary;
+}
+.color-error {
+  color: @errorMain;
+}

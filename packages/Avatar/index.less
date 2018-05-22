@@ -1,0 +1,26 @@
+@import '../styles/index.less';
+.root {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: @unit * 5;
+  height: @unit * 5;
+  font-family: @fontFamily;
+  font-size: 40rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  user-select: none;
+}
+.color-default {
+  color: @grey50;
+  background-color: @grey400;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  // Handle non-square image. The property isnt supported by IE11.
+  object-fit: cover;
+}

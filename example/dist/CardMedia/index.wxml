@@ -1,0 +1,11 @@
+<view class="classes root" 
+  style="{{styles}}"
+>
+  <image
+    class="card-image"
+    mode="{{mode}}"
+    src="{{src}}"
+    lazy-load="{{lazyLoad}}"
+  ></image>
+</view>
+

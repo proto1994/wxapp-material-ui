@@ -1,0 +1,98 @@
+@import '../styles/index.less';
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+};
+.item {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  background: @commonWhite;
+  .m-ui__shadow2();
+  margin: 0; // For instance; it's useful when used with a `figure` element.
+};
+.zero-min-width {
+  min-width: 0;
+};
+.direction-column {
+  flex-direction: column;
+};
+.direction-column-reverse {
+  flex-direction: column-reverse;
+};
+.direction-row-reverse {
+  flex-direction: row-reverse;
+};
+.wrap-nowrap {
+  flex-wrap: nowrap;
+};
+.wrap-wrap-reverse {
+  flex-wrap: wrap-reverse;
+};
+.align-items-center {
+  align-items: center;
+};
+.align-items-flex-start {
+  align-items: flex-start;
+};
+.align-items-flex-end {
+  align-items: flex-end;
+};
+.align-items-baseline {
+  align-items: baseline;
+};
+.align-content-center {
+  align-content: center;
+};
+.align-content-flex-start {
+  align-content: flex-start;
+};
+.align-content-flex-end {
+  align-content: flex-end;
+};
+.align-content-space-between {
+  align-content: space-between;
+};
+.align-content-space-around {
+  align-content: space-around;
+};
+.justify-center {
+  justify-content: center;
+};
+.justify-flex-end {
+  justify-content: flex-end;
+};
+.justify-space-between {
+  justify-content: space-between;
+};
+.justify-space-around {
+  justify-content: space-around;
+};
+
+
+
+.grid {
+  // flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  .m-ui__shadow2();
+}
+
+
+// .generate-spacing(40);
+// .generate-spacing(@n, @i:8) when (@i =< @n) {
+//   .spacing-@{i} {
+//     width: (@i * 100% / @n);
+//   }
+//   .generate-spacing(@n, (@i + 8))
+// } 
+
+.generate-grids(12);
+.generate-grids(@n, @i:1) when (@i =< @n) {
+  .grid-@{i} {
+    .grid();
+    flex-basis: 350rpx;
+  }
+  .generate-grids(@n, (@i + 1))
+} 

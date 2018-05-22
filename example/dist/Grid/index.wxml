@@ -1,0 +1,6 @@
+<view
+  class="grid-class {{container? 'container' : '' }} direction-{{direction}} justify-{{justify}} align-items-{{alignItems}} wrap-{{wrap}} align-content-{{alignContent}}  grid-{{column}} {{item?'item':''}}"
+  style="{{styles}}"
+  >
+  <slot></slot>
+</view>

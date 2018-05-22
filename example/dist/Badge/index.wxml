@@ -1,0 +1,7 @@
+<view
+  class="root" 
+  style="{{styles}}"
+>
+  <slot></slot>
+  <text class="badge color-{{color}}">{{badgeContent}}</text>
+</view>
