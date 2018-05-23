@@ -1,0 +1,45 @@
+@import '../styles/index.less';
+@height: 64rpx;
+.root {
+  font-family: @fontFamily;
+  position: relative;
+  font-size: 26rpx;
+  height: @height;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: @grey300;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  padding: 0;
+  border-radius: @height/2;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms
+  // For correct alignment with the text.
+}
+.root-hover {
+  .m-ui__shadow1();
+  background: @grey400;
+}
+
+.avatar {
+  margin-right: -8rpx;
+  height: @height;
+  width: @height;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  user-select: none;
+  white-space: nowrap;
+  cursor: inherit; 
+}
+
+.delete-icon {
+  color: fade(@lightTextPrimary, 26%);
+  height: auto;
+  margin: 0 8rpx 0 -16rpx;
+}

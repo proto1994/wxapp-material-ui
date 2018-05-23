@@ -10,5 +10,6 @@
   <view class="item"><navigator url="../badges/index">Badges</navigator></view>
   <view class="item"><navigator url="../button/index">Button</navigator></view>
   <view class="item"><navigator url="../card/index">Card</navigator></view>
+  <view class="item"><navigator url="../chip/index">Chips</navigator></view>
   <view class="item"><navigator url="../modal/index">Modal</navigator></view>
 </view>

@@ -9,7 +9,8 @@
       "pages/paper/index",
       "pages/grid/index",
       "pages/button/index",
-      "pages/modal/index"
+      "pages/modal/index",
+      "pages/chip/index"
     ],
     "window": {
       "navigationBarBackgroundColor": "#FAFAFA",

@@ -1,5 +1,5 @@
 <text 
-  class="material-icons icon-class"
+  class="material-icons classes"
   style="{{styles}}"
   >
   <slot></slot>

@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": -1,
 			"list": [
 				{
 					"id": -1,
@@ -78,6 +78,12 @@
 					"id": -1,
 					"name": "modal",
 					"pathName": "pages/modal/index",
+					"query": ""
+				},
+				{
+					"id": 8,
+					"name": "chips",
+					"pathName": "pages/chip/index",
 					"query": ""
 				}
 			]

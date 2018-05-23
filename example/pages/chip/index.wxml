@@ -1,0 +1,19 @@
+<view class="root">
+  <view class="hd">
+    <view class="title">Chips</view>
+    <view class="description">
+      Chips represent complex entities in small blocks, such as a contact. While included here as a standalone component, the most
+      common use will be in some form of input, so some of the behaviour demonstrated here is not shown in context.
+    </view>
+  </view>
+
+  <view class="secondary-title">基本Chip</view>
+  <Chip delete>哈哈</Chip>
+  <view class="secondary-title">带图片Chip</view>
+  <Grid  container alignItems="center">
+    <Chip src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg">测试测试测试测试</Chip>
+    <Chip avatar="M">测试测试测试测试</Chip>
+  </Grid>
+  <view class="secondary-title">自定义图片Chip</view>
+  <Chip deleteIcon="done">测试测试</Chip>
+</view>

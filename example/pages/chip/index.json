@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "Chip": "../../../dist/Chip/index",
+        "Grid": "../../../dist/Grid/index"
+    } 
+}
