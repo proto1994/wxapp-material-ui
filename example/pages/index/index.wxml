@@ -1,3 +1,13 @@
-<view class="page">
- test
+<view class="root">
+  <view class="hd">
+    <view class="title">Material UI</view>
+    <view class="description">
+      基于Google's Material Design的微信小程序组件
+    </view>
+  </view>
+  <view class="item"><navigator url="../appBar/index">App Bar</navigator></view>
+  <view class="item"><navigator url="../avatars/index">Avatars</navigator></view>
+  <view class="item"><navigator url="../badges/index">Badges</navigator></view>
+  <view class="item"><navigator url="../button/index">Button</navigator></view>
+  <view class="item"><navigator url="../appBar/index">Card</navigator></view>
 </view>

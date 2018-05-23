@@ -5,7 +5,7 @@ Component({
       type: String,
       value: 'default'
     },
-    style: {
+    styles: {
       type: String,
       value: ''
     },

@@ -3,8 +3,8 @@
   disabled="{{disabled}}"
   hover-class="{{buttonHoverClass}}"
   bindtap="bindtap"
-  style="{{style}}"
   loading="{{loading}}"
+  style="{{styles}}"
   >
   <slot></slot>
 </button>

@@ -1,0 +1,45 @@
+@import '../styles/index.less';
+.root {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box; // Prevent padding issue with the Modal and fixed positioned AppBar.
+  z-index: @appBar;
+  flex-shrink: 0;
+  min-height: 100rpx;
+  align-items: center;
+  padding-left: @unit * 2;
+  padding-right: @unit * 2;
+}
+.position-fixed {
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: 0;
+}
+.position-absolute {
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+}
+.position-sticky {
+  position: sticky;
+  top: 0;
+  left: auto;
+  right: 0;
+}
+.position-static {
+  position: static;
+}
+.color-default {
+  background-color: @grey300;
+  color: @commonBlack;
+}
+.color-primary {
+  background-color: @primaryMain;
+  color: @commonWhite;
+}
+.color-secondary {
+  background-color: @secondaryMain;
+  color: @commonWhite;
+}

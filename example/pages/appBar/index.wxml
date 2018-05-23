@@ -1,0 +1,28 @@
+<view class="root">
+  <view class="hd">
+    <view class="title">App Bar</view>
+    <view class="description">
+        The App bar, formerly known as the action bar in Android, 
+        is a special kind of toolbar that’s used for branding, navigation, 
+        search, and actions
+      </view>
+  </view>
+
+  <view class="secondary-title">基本的App Bar</view>
+  <AppBar position="static" color="default">
+      <Typography variant="title" color="inherit">
+        Title
+      </Typography>
+  </AppBar>
+
+  <view class="secondary-title">带按钮的AppBar</view>
+  <AppBar position="static" color="secondary">
+    <M-Icon styles="margin-right: 20rpx">menu</M-Icon>
+    <Typography variant="title" style="flex:1" color="inherit">
+      Title
+    </Typography>
+    <M-Button styles="color: #fff;">login</M-Button>
+  </AppBar>
+  <view class="waring">注意：这里使用了flex:1自动撑满只能设置在组件上面,小程序Typography也算一个标签</view>
+    
+</view>

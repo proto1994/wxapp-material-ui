@@ -1,13 +1,14 @@
 {
     "pages": [
+      "pages/index/index",
+      "pages/appBar/index",
       "pages/badges/index",
       "pages/avatar/index",
       "pages/typography/index",
       "pages/card/index",
       "pages/paper/index",
       "pages/grid/index",
-      "pages/button/index",
-      "pages/index/index"
+      "pages/button/index"
     ],
     "window": {
       "navigationBarBackgroundColor": "#FAFAFA",
