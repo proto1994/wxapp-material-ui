@@ -1,4 +1,4 @@
-<view class="root">
+<view class="root" style="{{open ? 'overflow: hidden;height:calc(100vh - 60rpx);' : ''}}">
   <view class="hd">
     <view class="title">Modal</view>
     <view class="description">
