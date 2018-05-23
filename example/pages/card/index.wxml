@@ -1,9 +1,5 @@
 <M-Card>
-  <M-CardMedia
-    mode="widthFix"
-    lazy-load="{{ture}}"
-    src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg"
-  ></M-CardMedia>
+
   <M-CardContent>
     <M-Typography color="textSecondary">word of Day</M-Typography>
     <M-Typography variant="headline">be bull new k</M-Typography>

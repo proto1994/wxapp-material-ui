@@ -1,0 +1,9 @@
+<view
+  class="root classes {{!open ? 'hidden':''}} scale-in-center" 
+  style="{{styles}}"
+  bindtap="bindtap"
+>
+  <view style="opacity: {{open ? 1 : 0}}" class="animate"></view>
+  <slot></slot>
+</view>
+

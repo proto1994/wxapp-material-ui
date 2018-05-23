@@ -73,6 +73,12 @@
 					"name": "appBar",
 					"pathName": "pages/appBar/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "modal",
+					"pathName": "pages/modal/index",
+					"query": ""
 				}
 			]
 		}

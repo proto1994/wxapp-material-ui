@@ -1,0 +1,10 @@
+{
+    "usingComponents": {
+        "Modal": "../../../dist/Modal/index",
+        "M-Button": "../../../dist/Button/index",
+        "Card": "../../../dist/Card/index",
+        "Card-Content": "../../../dist/CardContent/index",
+        "Card-Action": "../../../dist/CardActions/index",
+        "Typography": "../../../dist/Typography/index"
+    } 
+}

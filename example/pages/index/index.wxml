@@ -6,8 +6,9 @@
     </view>
   </view>
   <view class="item"><navigator url="../appBar/index">App Bar</navigator></view>
-  <view class="item"><navigator url="../avatars/index">Avatars</navigator></view>
+  <view class="item"><navigator url="../avatar/index">Avatars</navigator></view>
   <view class="item"><navigator url="../badges/index">Badges</navigator></view>
   <view class="item"><navigator url="../button/index">Button</navigator></view>
-  <view class="item"><navigator url="../appBar/index">Card</navigator></view>
+  <view class="item"><navigator url="../card/index">Card</navigator></view>
+  <view class="item"><navigator url="../modal/index">Modal</navigator></view>
 </view>

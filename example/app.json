@@ -8,7 +8,8 @@
       "pages/card/index",
       "pages/paper/index",
       "pages/grid/index",
-      "pages/button/index"
+      "pages/button/index",
+      "pages/modal/index"
     ],
     "window": {
       "navigationBarBackgroundColor": "#FAFAFA",
