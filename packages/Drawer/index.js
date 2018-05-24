@@ -4,21 +4,21 @@ Component({
       type: String,
       value: ''
     },
-    avatar: {
-      type: String,
-      value: ''
-    },
-    src: {
-      type: String,
-      value: ''
-    },
-    delete: {
+    open: {
       type: Boolean,
       value: false
     },
-    deleteIcon: {
+    anchor: {
       type: String,
-      value: 'clear'
+      value: 'left'
+    },
+    elevation: {
+      type: Number,
+      value: 16
+    },
+    variant: {
+      type: String,
+      value: 'temporary'
     }
   },
   externalClasses: ['classes']

@@ -1,0 +1,8 @@
+{
+    "component": true,
+    "usingComponents": {
+      "Modal": "../Modal/index",
+      "Paper": "../Paper/index",
+      "M-Slider": "../Slider/index"
+    }
+}

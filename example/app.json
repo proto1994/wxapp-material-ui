@@ -12,7 +12,8 @@
       "pages/modal/index",
       "pages/chip/index",
       "pages/divider/index",
-      "pages/list/index"
+      "pages/list/index",
+      "pages/drawer/index"
     ],
     "window": {
       "navigationBarBackgroundColor": "#FAFAFA",

@@ -1,0 +1,21 @@
+<Modal 
+  class="root classes" 
+  style="{{styles}}"
+  open="{{open}}"
+>
+
+<M-Slider
+  stop="{{open}}"
+  direction="{{anchor}}"
+>
+  <Paper
+    square
+    elevation="{{variant === 'temporary' ? elevation : 0}}"
+    classes="paper"
+    classesa="paper-anchor-{{anchor}}"
+    classesb="{{variant !== 'temporary' ? 'paper-anchor-docked-'+anchor : ''}}"
+  >
+    <slot></slot>
+  </Paper>
+</M-Slider>
+</Modal>

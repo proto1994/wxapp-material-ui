@@ -1,0 +1,11 @@
+{
+    "usingComponents": {
+        "Drawer": "../../../dist/Drawer/index",
+        "M-Button": "../../../dist/Button/index",
+        "List": "../../dist/List/index",
+        "ListItem": "../../dist/ListItem/index",
+        "ListItemIcon": "../../dist/ListItemIcon/index",
+        "ListItemText": "../../dist/ListItemText/index",
+        "Icon": "../../dist/Icon/index"
+    } 
+}

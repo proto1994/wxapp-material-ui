@@ -1,2 +1,2 @@
 # wxapp-material-ui
-基于material-ui做的小程序ui
+基于material-ui的小程序UI

@@ -4,17 +4,21 @@ Component({
       type: String,
       value: ''
     },
-    disableSticky: {
+    open: {
       type: Boolean,
       value: false
     },
-    color: {
+    anchor: {
       type: String,
-      value: 'default'
+      value: 'left'
     },
-    inset: {
-      type: Boolean,
-      value: false
+    elevation: {
+      type: Number,
+      value: 16
+    },
+    variant: {
+      type: String,
+      value: 'temporary'
     }
   },
   externalClasses: ['classes']

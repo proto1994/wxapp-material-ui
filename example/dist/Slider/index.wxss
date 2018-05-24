@@ -31,13 +31,39 @@
   box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
 }
 .root {
-  width: 72rpx;
-  height: 72rpx;
-  font-size: 36rpx;
-  margin-right: 8rpx;
+  height: 100vh;
+  background: #fff;
+  position: absolute;
+  transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 }
-.icon {
-  width: 40rpx;
-  height: 40rpx;
-  font-size: 40rpx;
+.anchor-left {
+  left: 0;
+  transform: translateX(-500px);
+  right: auto;
+}
+.anchor-right {
+  left: auto;
+  right: 0;
+  transform: translateX(1000px);
+}
+.anchor-top {
+  top: 0;
+  left: 0;
+  bottom: auto;
+  right: 0;
+  height: auto;
+  max-height: 100vh;
+  transform: translateY(-500px);
+}
+.anchor-bottom {
+  top: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  max-height: 100vh;
+  transform: translateY(500px);
+}
+.reset {
+  transform: translate(0, 0);
 }

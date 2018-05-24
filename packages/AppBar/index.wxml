@@ -1,8 +1,8 @@
 <Paper
-  appBarRoot="root"
-  appBarColor="color-{{color}}"
-  appBarPosition="position-{{position}}"
   classes="classes" 
+  classesa="root"
+  classesb="color-{{color}}"
+  classesc="position-{{position}}"
   styles="{{styles}}"
   elevation="4"
 >

@@ -1,0 +1,91 @@
+@import '../styles/index.less';
+.root {
+  height: 1px;
+  margin: 0; // Reset browser default style.
+  border: none;
+  flex-shrink: 0;
+  background-color: @lightTextDivider;
+}
+
+.docked {
+  flex: 0 0 auto;
+}
+.paper {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex: 1 0 auto;
+  z-index: @drawer;
+  position: fixed;
+  top: 0;
+  // We disable the focus ring for mouse, touch and keyboard users.
+  // At some point, it would be better to keep it for keyboard users.
+  // :focus-ring CSS pseudo-class will help.
+  outline: 'none',
+}
+.paper-anchor-left {
+  left: 0;
+  right: auto;
+}
+.paper-anchor-right {
+  left: auto;
+  right: 0;
+}
+.paper-anchor-top {
+  top: 0;
+  left: 0;
+  bottom: auto;
+  right: 0;
+  height: auto;
+  max-height: 100vh; 
+}
+.paper-anchor-bottom {
+  top: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  max-height: 100vh; 
+}
+.paper-anchor-docked-left {
+  border-right: 1px solid @lightTextDivider;
+}
+.paper-anchor-docked-top {
+  border-bottom: 1px solid @lightTextDivider;
+}
+.paper-anchor-docked-right {
+  border-left: 1px solid @lightTextDivider;
+}
+.paper-anchor-docked-bottom {
+  border-top: 1px solid @lightTextDivider;
+}
+
+.slide-in-left {    
+  transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transform: translateX(-500px);
+  height: 100vh;
+  background: #fff;
+  position: absolute;
+}
+
+.stop {
+  transform: translateX(-500px);
+}
+
+.transition {
+  transform: translateX(0);
+}
+
+
+
+ @keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

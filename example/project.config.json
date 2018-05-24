@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 10,
+			"current": 13,
 			"list": [
 				{
 					"id": -1,
@@ -95,7 +95,25 @@
 				{
 					"id": -1,
 					"name": "list",
-					"pathName": "pages/list/index"
+					"pathName": "pages/list/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "drawer",
+					"pathName": "pages/drawer/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "drawer",
+					"pathName": "pages/drawer/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "drawer",
+					"pathName": "pages/drawer/index"
 				}
 			]
 		}

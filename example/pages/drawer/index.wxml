@@ -1,0 +1,77 @@
+<template name="tpl" >
+  <view style="width: 400rpx" >
+    <list>
+      <ListItem button>
+        <ListItemIcon>
+          <Icon>inbox</Icon>
+        </ListItemIcon>
+        <ListItemText primary="Inbox" />
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon>
+          <Icon>star</Icon>
+        </ListItemIcon>
+        <ListItemText primary="Starred" />
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon>
+          <Icon>send</Icon>
+        </ListItemIcon>
+        <ListItemText primary="Send mail" />
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon>
+          <Icon>drafts</Icon>
+        </ListItemIcon>
+        <ListItemText primary="Drafts" />
+      </ListItem>
+    </list>
+  </view>
+</template>
+<view class="root">
+  <view class="hd">
+    <view class="title">drawer</view>
+    <view class="description">
+      The Drawer slides in from the side. It is a common pattern found in Google apps and follows the keylines and metrics for lists.
+    </view>
+  </view>
+  <view class="secondary-title">Temporary drawer</view>
+  <Divider></Divider>
+
+  <view class="demo">
+    <M-Button bindtap="toggleDrawerLeft" data-open="{{true}}">open left</M-Button>
+    <M-Button bindtap="toggleDrawerRight" data-open="{{true}}">open right</M-Button>
+    <M-Button bindtap="toggleDrawerTop" data-open="{{true}}">open top</M-Button>
+    <M-Button bindtap="toggleDrawerBottom" data-open="{{true}}">open bottom</M-Button>
+  </view>
+  <Drawer
+    open="{{left}}"
+    bindtap="toggleDrawerLeft" data-open="{{false}}"
+  >
+    <template is="tpl"></template>
+  </Drawer>
+
+  <Drawer
+    anchor="right"
+    open="{{right}}"
+    bindtap="toggleDrawerRight" data-open="{{false}}"
+  >
+  <template is="tpl"></template>
+  </Drawer>
+
+  <Drawer
+    anchor="top"
+    open="{{top}}"
+    bindtap="toggleDrawerTop" data-open="{{false}}"
+  >
+  <template is="tpl"></template>
+  </Drawer>
+
+  <Drawer
+    anchor="bottom"
+    open="{{bottom}}"
+    bindtap="toggleDrawerBottom" data-open="{{false}}"
+  >
+  <template is="tpl"></template>
+  </Drawer>
+</view>

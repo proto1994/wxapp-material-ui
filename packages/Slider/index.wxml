@@ -1,0 +1,7 @@
+<view
+  class="root anchor-{{direction}} {{stop ? 'reset' : ''}} classes" 
+  styles="{{styles}}"
+>
+  <slot></slot>
+</view>
+
