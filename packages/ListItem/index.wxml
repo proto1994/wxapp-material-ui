@@ -1,0 +1,7 @@
+<view 
+  class="root default {{!disableGutters ? 'gutters' : ''}} {{disabled ? 'disabled' : ''}} {{divider ? 'divider' : ''}} classes" 
+  style="{{styles}}"
+  hover-class="{{button ? 'root-hover' : '' }}"
+>
+  <slot></slot>
+</view>

@@ -1,0 +1,6 @@
+<view 
+  class="root color-{{color}} {{!disableSticky ? 'sticky': ''}} {{inset ? 'inset':''}} classes" 
+  style="{{styles}}"
+>
+  <slot></slot>
+</view>

@@ -1,0 +1,21 @@
+<view 
+  class="root {{inset ? 'inset':''}} classes" 
+  style="{{styles}}"
+>
+  <Typography 
+    wx:if="primary" 
+    variant="subheading"
+    classes="primary"
+  >
+  {{primary}}
+  </Typography>
+
+  <Typography 
+    wx:if="secondary" 
+    variant="body1"
+    classes="secondary"
+    color="textSecondary"
+  >
+  {{secondary}}
+  </Typography>
+</view>

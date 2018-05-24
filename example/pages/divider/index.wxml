@@ -1,0 +1,14 @@
+<view class="root">
+  <view class="hd">
+    <view class="title">Divider</view>
+    <view class="description">
+        Dividers group and separate content within lists and page layouts. The divider is a thin rule, lightweight yet sufficient to distinguish content visually and spatially.
+      </view>
+  </view>
+
+  <view class="secondary-title">基本的App Bar</view>
+  <Divider></Divider>
+
+  
+    
+</view>

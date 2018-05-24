@@ -12,4 +12,5 @@
   <view class="item"><navigator url="../card/index">Card</navigator></view>
   <view class="item"><navigator url="../chip/index">Chips</navigator></view>
   <view class="item"><navigator url="../modal/index">Modal</navigator></view>
+  <view class="item"><navigator url="../list/index">List</navigator></view>
 </view>

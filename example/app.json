@@ -10,7 +10,9 @@
       "pages/grid/index",
       "pages/button/index",
       "pages/modal/index",
-      "pages/chip/index"
+      "pages/chip/index",
+      "pages/divider/index",
+      "pages/list/index"
     ],
     "window": {
       "navigationBarBackgroundColor": "#FAFAFA",

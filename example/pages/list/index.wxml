@@ -1,0 +1,133 @@
+<view class="root">
+  <view class="hd">
+    <view class="title">List</view>
+    <view class="description">
+      Lists present multiple line items vertically as a single continuous element. Lists are made up of a continuous column of
+      rows. Each row contains a tile. Primary actions fill the tile, and supplemental actions are represented by icons and
+      text. Lists are best suited for similar data types.
+    </view>
+  </view>
+
+  <view class="secondary-title">simple list</view>
+  <view class="demo">
+    <List>
+      <ListItem button>
+        <Avatar>
+          <Icon>inbox</Icon>
+        </Avatar>
+        <ListItemText primary="Inbox"></ListItemText>
+      </ListItem>
+      <ListItem>
+        <Avatar>
+          <Icon>drafts</Icon>
+        </Avatar>
+        <ListItemText primary="drafts" />
+      </ListItem>
+      <Divider></Divider>
+      <ListItem>
+        <ListItemText styles="padding-left:0" primary="Vacation" />
+      </ListItem>
+    </List>
+  </view>
+
+  <view class="secondary-title">Folder list</view>
+  <view class="demo">
+    <List>
+      <ListItem>
+        <Avatar>
+          <Icon>image</Icon>
+        </Avatar>
+        <ListItemText primary="Photos" secondary="Jan 9, 2014"></ListItemText>
+      </ListItem>
+      <ListItem>
+        <Avatar>
+          <Icon>work</Icon>
+        </Avatar>
+        <ListItemText primary="Work" secondary="Jan 7, 2014" />
+      </ListItem>
+      <ListItem>
+        <Avatar>
+          <Icon>beach_access</Icon>
+        </Avatar>
+        <ListItemText primary="Vacation" secondary="July 20, 2014" />
+      </ListItem>
+    </List>
+  </view>
+
+  <view class="secondary-title">Inset list</view>
+  <view class="demo">
+    <List>
+      <ListItem>
+        <Avatar>
+          <Icon>inbox</Icon>
+        </Avatar>
+        <ListItemText primary="Inbox"></ListItemText>
+      </ListItem>
+      <ListItem>
+        <Avatar>
+          <Icon>drafts</Icon>
+        </Avatar>
+        <ListItemText primary="drafts" />
+      </ListItem>
+      <Divider></Divider>
+      <ListItem button>
+        <ListItemText primary="Vacation" inset />
+      </ListItem>
+    </List>
+  </view>
+
+  <view class="secondary-title">Nested List</view>
+  <view class="demo">
+    <List>
+      <ListSubHeader>nested list</ListSubHeader>
+      <ListItem>
+        <ListItemIcon>
+          <Icon>inbox</Icon>
+        </ListItemIcon>
+        <ListItemText primary="Inbox"></ListItemText>
+      </ListItem>
+      <ListItem>
+        <ListItemIcon>
+          <Icon>drafts</Icon>
+        </ListItemIcon>
+        <ListItemText primary="drafts" />
+      </ListItem>
+      <Divider></Divider>
+      <List disablePadding>
+        <ListItem button styles="padding-left: 64rpx;">
+          <ListItemIcon>
+            <Icon>star</Icon>
+          </ListItemIcon>
+          <ListItemText primary="Starred" />
+        </ListItem>
+      </List>
+    </List>
+  </view>
+
+  <view class="secondary-title">Switch</view>
+  <view class="demo">
+    <List>
+      <ListSubHeader>setting</ListSubHeader>
+      <ListItem>
+        <ListItemIcon>
+          <Icon>wifi</Icon>
+        </ListItemIcon>
+        <ListItemText primary="Wi-Fi"></ListItemText>
+        <ListItemSecondaryAction>
+            <switch checked />
+        </ListItemSecondaryAction>
+      </ListItem>
+
+      <ListItem>
+          <ListItemIcon>
+            <Icon>bluetooth</Icon>
+          </ListItemIcon>
+          <ListItemText primary="BlueTooth"></ListItemText>
+          <ListItemSecondaryAction>
+              <switch  />
+          </ListItemSecondaryAction>
+        </ListItem>
+    </List>
+  </view>
+
+</view>

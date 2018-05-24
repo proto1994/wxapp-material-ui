@@ -1,0 +1,56 @@
+@import '../styles/index.less';
+.root {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.root-hover {
+  background-color: @grey300;
+  border-radius: 5rpx; 
+}
+
+.container {
+  position: relative;
+}
+
+.focus-visible {
+  background-color: @lightActionActive;
+}
+
+.default {
+  padding-top: 24rpx;
+  padding-bottom: 24rpx;
+}
+
+.dense {
+  padding-top: @unit;
+  padding-bottom: @unit;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.divider {
+  border-bottom: 1px solid @lightTextDivider;
+  background-clip: padding-box;
+}
+
+.gutters {
+  padding-left: @unit * 2;
+  padding-right: @unit * 2;
+}
+.button {
+  
+}
+.secondary-action {
+  // Add some space to avoid collision as `ListItemSecondaryAction`
+  // is absolutely positionned.
+  padding-right: @unit * 4;
+}

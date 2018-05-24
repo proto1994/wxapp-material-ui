@@ -1,0 +1,6 @@
+<view 
+  class="root {{!disablePadding ? 'padding': ''}} {{dense && !disablePadding ? 'dense':''}} classes" 
+  style="{{styles}}"
+>
+  <slot></slot>
+</view>

@@ -1,0 +1,5 @@
+<view 
+  class="root {{absolute ? 'absolute': ''}} {{inset ? 'inset':''}} {{light ? 'light':''}} classes" 
+  style="{{styles}}"
+>
+</view>

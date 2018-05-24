@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 10,
 			"list": [
 				{
 					"id": -1,
@@ -85,6 +85,17 @@
 					"name": "chips",
 					"pathName": "pages/chip/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "divider",
+					"pathName": "pages/divider/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "list",
+					"pathName": "pages/list/index"
 				}
 			]
 		}

@@ -1,0 +1,14 @@
+{
+    "usingComponents": {
+        "Divider": "../../../dist/Divider/index",
+        "List": "../../../dist/List/index",
+        "ListSubHeader": "../../../dist/ListSubHeader/index",
+        "ListItem": "../../../dist/ListItem/index",
+        "ListItemIcon": "../../../dist/ListItemIcon/index",
+        "ListItemSecondaryAction": "../../../dist/ListItemSecondaryAction/index",
+        "ListItemAvatar": "../../../dist/ListItemAvatar/index",
+        "ListItemText": "../../../dist/ListItemText/index",
+        "Avatar": "../../../dist/Avatar/index",
+        "Icon": "../../../dist/Icon/index"
+    } 
+}
