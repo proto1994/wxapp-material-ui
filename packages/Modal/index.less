@@ -7,7 +7,39 @@
   position: fixed;
   left: 0;
   top: 0;
+  background: rgba(0, 0, 0, 0);
+  visibility: hidden;
 }
+
+.enter {
+  visibility: visible;  
+}
+
+@keyframes enter {
+  from {
+    visibility: visible;  
+  }
+  to {
+    visibility: visible;  
+  }
+}
+
+.exit {
+  animation: exit 225ms cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+
+@keyframes exit {
+  from {
+    visibility: visible;  
+  }
+  to {
+    visibility: hidden;
+  }
+}
+
+
+
 .animate {
   width: 100%;
   height: 100%;
@@ -18,6 +50,7 @@
   opacity: 0;
   background: rgba(0, 0, 0, .5);
   transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  will-change: opacity;
 }
 
 

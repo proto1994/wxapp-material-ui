@@ -58,7 +58,7 @@
   color: rgba(0, 0, 0, 0.87);
 }
 .color-primary {
-  background-Color: #3f51b5;
+  background-Color: #2196f3;
   color: #fff;
 }
 .color-secondary {

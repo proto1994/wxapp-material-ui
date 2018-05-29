@@ -67,7 +67,7 @@
   color: #000;
 }
 .color-primary {
-  background-color: #3f51b5;
+  background-color: #2196f3;
   color: #fff;
 }
 .color-secondary {

@@ -13,7 +13,8 @@
       "pages/chip/index",
       "pages/divider/index",
       "pages/list/index",
-      "pages/drawer/index"
+      "pages/drawer/index",
+      "pages/expansionPanel/index"
     ],
     "window": {
       "navigationBarBackgroundColor": "#FAFAFA",

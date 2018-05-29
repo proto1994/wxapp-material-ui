@@ -11,25 +11,24 @@ Page({
     console.log(e, 'eee');
   },
   toggleDrawerLeft(event) {
-    console.log(event)
     this.setData({
       left: event.target.dataset.open
     })
   },
   toggleDrawerBottom(event) {
-    console.log(event)
+
     this.setData({
       bottom: event.target.dataset.open
     })
   },
   toggleDrawerTop(event) {
-    console.log(event)
+
     this.setData({
       top: event.target.dataset.open
     })
   },
   toggleDrawerRight(event) {
-    console.log(event)
+
     this.setData({
       right: event.target.dataset.open
     })

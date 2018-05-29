@@ -1,0 +1,9 @@
+<view 
+  class="root classes" 
+  style="{{styles}}"
+  style="height: {{!in ? '0':height*2+'rpx'}}"
+>
+  <view id="wrapper">
+    <slot></slot>
+  </view>
+</view>

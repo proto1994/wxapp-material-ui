@@ -1,5 +1,5 @@
 <template name="tpl" >
-  <view style="width: 400rpx" >
+  <view style="width: 500rpx" >
     <list>
       <ListItem button>
         <ListItemIcon>

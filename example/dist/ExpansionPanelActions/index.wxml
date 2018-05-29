@@ -1,0 +1,6 @@
+<view 
+  class="root classes" 
+  style="{{styles}}"
+>
+  <slot></slot>
+</view>

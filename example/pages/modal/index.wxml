@@ -1,25 +1,25 @@
-<view class="root" style="{{open ? 'overflow: hidden;height:calc(100vh - 60rpx);' : ''}}">
-  <view class="hd">
-    <view class="title">Modal</view>
-    <view class="description">
-      The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else. The component renders its children node in front of a backdrop component.
+  <view class="root"  style="{{open ? 'overflow: hidden;height:calc(100vh - 60rpx);' : ''}}">
+    <view class="hd">
+      <view class="title">Modal</view>
+      <view class="description">
+        The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else. The component renders its children node in front of a backdrop component.
+      </view>
     </view>
+    <view class="secondary-title">简单的弹框</view>
+    <M-Button bindtap="bindtap">打开</M-Button>
+    <Modal
+    open="{{open}}"
+    styles="justify-content: center; align-items: center"
+    >
+      <Card styles="width: 580rpx;">
+        <Card-Content>
+          <Typography align="center" styles="margin-bottom: 20rpx;" variant="headline">弹窗标题</Typography>
+          <Typography>弹窗内容，尽量控制在三行之内弹窗内容</Typography>
+        </Card-Content>
+        <Card-Action styles="justify-content: space-around">
+          <M-Button color="primary" bindtap="onClose">确认</M-Button>
+          <M-Button color="secondary" bindtap="onClose">关闭</M-Button>
+        </Card-Action>
+      </Card>
+    </Modal>
   </view>
-  <view class="secondary-title">简单的弹框</view>
-  <M-Button bindtap="bindtap">打开</M-Button>
-  <Modal
-   open="{{open}}"
-   styles="justify-content: center; align-items: center"
-  >
-    <Card styles="width: 580rpx;">
-      <Card-Content>
-        <Typography align="center" styles="margin-bottom: 20rpx;" variant="headline">弹窗标题</Typography>
-        <Typography>弹窗内容，尽量控制在三行之内弹窗内容</Typography>
-      </Card-Content>
-      <Card-Action styles="justify-content: space-around">
-        <M-Button color="primary" bindtap="onClose">确认</M-Button>
-        <M-Button color="secondary" bindtap="onClose">关闭</M-Button>
-      </Card-Action>
-    </Card>
-  </Modal>
-</view>

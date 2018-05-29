@@ -1,5 +1,13 @@
 {
     "usingComponents": {
-        "M-Button": "../../../dist/Button/index"
+        "M-Button": "../../../dist/Button/index",
+        "AppBar": "../../../dist/AppBar/index",
+        "Drawer": "../../../dist/Drawer/index",
+        "Icon": "../../../dist/Icon/index",
+        "List": "../../../dist/List/index",
+        "ListItem": "../../../dist/ListItem/index",
+        "ListItemIcon": "../../../dist/ListItemIcon/index",
+        "ListItemText": "../../../dist/ListItemText/index",
+        "Typography": "../../../dist/Typography/index"
     } 
 }

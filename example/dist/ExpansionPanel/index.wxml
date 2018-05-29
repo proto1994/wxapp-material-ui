@@ -1,0 +1,20 @@
+<view class="root classes {{expanded ? 'expanded' : ''}} {{key != '' ? 'root-'+key+'-child' : ''}} ">
+  <Paper classesa="{{disabled ? 'disabled':''}}" style="{{styles}}" elevation="1" square>
+    <view class="summary" bindtap="handleChange">
+      <view class="summary-content">
+        <slot name="summary"></slot>
+      </view>
+      <block wx:if="{{!disabled}}">
+          <Icon 
+          classes="expand-icon" 
+          styles="{{expanded ? 'transform: translateY(-50%) rotate(0deg)':'transform: translateY(-50%) rotate(180deg)'}}"
+        >{{expandIcon}}</Icon>
+      </block>
+    </view>
+    <Collapse in="{{expanded}}" id="collapse">
+      <slot name="detail"></slot>
+      <slot name="other"></slot>
+      <slot name="action"></slot>
+    </Collapse>
+  </Paper>
+</view>

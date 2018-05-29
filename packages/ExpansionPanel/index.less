@@ -1,0 +1,70 @@
+@import '../styles/index.less';
+
+.root {
+  position: relative;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-sizing: border-box;
+}
+
+.root::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  content: "";
+  opacity: 1;
+  background-color: @lightTextDivider;
+}
+
+.disabled {
+  background-color: @lightActionDisabledBackground;
+  color: @lightTextDisabled;
+}
+
+.expanded {
+  margin: @unit * 2 0;
+}
+
+.root-first-child {
+  margin-top: 0;  
+}
+.root-last-child {
+  margin-bottom: 0;
+}
+
+.entered {
+  height: auto;
+}
+
+.summary {
+  display: flex;
+  min-height: @unit * 6;
+  padding: 0 @unit * 3 0 @unit * 3;
+  position: relative;
+}
+
+.summary-content {
+  flex-grow: 1;
+  display: flex;
+  margin: 24rpx 0;
+}
+.expand-icon {
+  position: absolute;
+  top: 50%;
+  right: @unit * 3;
+  // transform: translateY(-50%) rotate(0deg);
+}
+
+.rotate-expand-icon {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.detail {
+  display: flex;
+  padding: @unit @unit*3 @unit*3;
+}
+
+.action {
+  padding: @unit*2 @unit*2;
+}

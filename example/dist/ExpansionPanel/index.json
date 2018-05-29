@@ -1,0 +1,8 @@
+{
+    "component": true,
+    "usingComponents": {
+      "Collapse": "../Collapse/index",
+      "Paper": "../Paper/index",
+      "Icon": "../Icon/index"
+    }
+}

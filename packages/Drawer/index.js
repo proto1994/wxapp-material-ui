@@ -19,6 +19,12 @@ Component({
     variant: {
       type: String,
       value: 'temporary'
+    },
+    onClose: null
+  },
+  methods: {
+    onClose(e) {
+      this.triggerEvent('onClose', false);
     }
   },
   externalClasses: ['classes']

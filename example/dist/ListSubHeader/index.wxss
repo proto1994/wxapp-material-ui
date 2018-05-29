@@ -41,7 +41,7 @@
   padding-right: 32rpx;
 }
 .color-primary {
-  color: #3f51b5;
+  color: #2196f3;
 }
 .color-inherit {
   color: inherit;

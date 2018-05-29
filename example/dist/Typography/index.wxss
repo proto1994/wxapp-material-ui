@@ -136,7 +136,7 @@
   color: inherit;
 }
 .color-primary {
-  color: #3f51b5;
+  color: #2196f3;
 }
 .color-secondary {
   color: #f50057;

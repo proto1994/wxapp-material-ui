@@ -1,5 +1,5 @@
 <view
-  class="root classes {{!open ? 'hidden':''}} scale-in-center" 
+  class="root classes {{open ? 'enter':'exit'}} scale-in-center" 
   style="{{styles}}"
   bindtap="bindtap"
 >

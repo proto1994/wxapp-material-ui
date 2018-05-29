@@ -1,0 +1,105 @@
+<view class="root">
+  <view class="hd">
+    <view class="title">Expansion Panel</view>
+    <view class="description">
+      Expansion Panels contain creation flows and allow lightweight editing of an element.
+    </view>
+  </view>
+  <view class="secondary-title">Simple Expansion Panel</view>
+  <view class="demo">
+    <ExpansionPanel key="first">
+      <view class="hah" slot="summary">
+        哈哈哈
+      </view>
+      <ExpansionPanelDetails slot="detail">
+        <Typography>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</Typography>
+      </ExpansionPanelDetails>
+    </ExpansionPanel>
+
+    <ExpansionPanel>
+      <view class="hah" slot="summary">
+        哈哈哈
+      </view>
+      <ExpansionPanelDetails slot="detail">
+        <Typography>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</Typography>
+      </ExpansionPanelDetails>
+    </ExpansionPanel>
+
+    <ExpansionPanel>
+      <view class="hah" slot="summary">
+        哈哈哈
+      </view>
+      <ExpansionPanelDetails slot="detail">
+        <Typography>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</Typography>
+      </ExpansionPanelDetails>
+    </ExpansionPanel>
+
+    <ExpansionPanel disabled key="last">
+      <view class="hah" slot="summary">
+        哈哈哈
+      </view>
+      <ExpansionPanelDetails slot="detail">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</ExpansionPanelDetails>
+    </ExpansionPanel>
+  </view>
+
+  <view class="secondary-title">Secondary heading and Columns</view>
+  <view class="description">Multiple columns can be used to structure the content, and a helper text may be added to the panel to assist the user.</view>
+  <view class="demo">
+    <ExpansionPanel key="first" defaultExpanded>
+      <view class="summary" slot="summary">
+        <view class="column">
+          <Typography>Location</Typography>
+        </view>
+        <view class="column">
+          <Typography classes="secondary">Select trip destination</Typography>
+        </view>
+      </view>
+      <ExpansionPanelDetails class="detail" slot="detail">
+        <view class="column"></view>
+        <view class="column">
+          <Chip delete>Barbados</Chip>
+        </view>
+        <view class="column helper">
+          <Typography variant="caption">
+            Select your destination of choice
+          </Typography>
+        </view>
+      </ExpansionPanelDetails>
+      <Divider slot="other"></Divider>
+      <ExpansionPanelActions class="action" slot="action">
+        <M-Button size="small">Cancel</M-Button>
+        <M-Button size="small" color="primary">Save</M-Button>
+      </ExpansionPanelActions>
+    </ExpansionPanel>
+  </view>
+
+  <view class="secondary-title">Controlled Accordion</view>
+  <view class="description">Extend the default panel behavior to create an accordion with the ExpansionPanel component.</view>
+  <view class="demo">
+    <ExpansionPanel key="first" expanded="{{expanded == 'panel1'}}" bindchange="bindtap" data-expanded="panel1">
+      <view class="hah" slot="summary">
+        哈哈哈
+      </view>
+      <ExpansionPanelDetails slot="detail">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</ExpansionPanelDetails>
+    </ExpansionPanel>
+    <ExpansionPanel expanded="{{expanded == 'panel2'}}" bindchange="bindtap" data-expanded="panel2">
+      <view class="hah" slot="summary">
+        哈哈哈
+      </view>
+      <ExpansionPanelDetails slot="detail">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</ExpansionPanelDetails>
+    </ExpansionPanel>
+    <ExpansionPanel expanded="{{expanded == 'panel3'}}" bindchange="bindtap" data-expanded="panel3">
+      <view class="hah" slot="summary">
+        哈哈哈
+      </view>
+      <ExpansionPanelDetails slot="detail">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</ExpansionPanelDetails>
+    </ExpansionPanel>
+    <ExpansionPanel expanded="{{expanded == 'panel4'}}" key="last" bindchange="bindtap" data-expanded="panel4">
+      <view class="hah" slot="summary">
+        哈哈哈
+      </view>
+      <ExpansionPanelDetails slot="detail">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</ExpansionPanelDetails>
+    </ExpansionPanel>
+  </view>
+
+</view>
