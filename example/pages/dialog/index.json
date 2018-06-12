@@ -1,0 +1,18 @@
+{
+    "usingComponents": {
+        "Modal": "../../../dist/Modal/index",
+        "M-Button": "../../../dist/Button/index",
+        "Dialog": "../../../dist/Dialog/index",
+        "DialogTitle": "../../../dist/DialogTitle/index",
+        "DialogContent": "../../../dist/DialogContent/index",
+        "DialogActions": "../../../dist/DialogActions/index",
+        "DialogContentText": "../../../dist/DialogContentText/index",
+        "Typography": "../../../dist/Typography/index",
+        "M-Slider": "../../../dist/Slider/index",
+        "List": "../../../dist/List/index",
+        "ListItem": "../../../dist/ListItem/index",
+        "ListItemAvatar": "../../../dist/ListItemAvatar/index",
+        "Avatar": "../../../dist/Avatar/index",
+        "M-Icon": "../../../dist/Icon/index"
+    } 
+}

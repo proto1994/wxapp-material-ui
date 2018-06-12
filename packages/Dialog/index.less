@@ -1,0 +1,30 @@
+@import '../styles/index.less';
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paper {
+  display: flex;
+  margin: @unit * 4;
+  flex-direction: column;
+  flex: 0 1 auto;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+  outline: none;
+}
+
+.paper-full-width {
+  width: 100vw;
+}
+
+.paper-full-screen {
+  margin: 0;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  border-radius: 0;
+}

@@ -1,0 +1,7 @@
+{
+    "component": true,
+    "usingComponents": {
+      "Paper": "../Paper/index",
+      "Modal": "../Modal/index"
+    }
+}

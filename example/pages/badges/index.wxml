@@ -1,21 +1,31 @@
-<view style="padding:30rpx;">
-  <M-Badge style="margin-right:30rpx;" color="primary" badgeContent="7">
+<Menu title="Badges"></Menu>
+<view class="root">
+  <view class="hd">
+    <view class="title">Badges</view>
+    <view class="description">
+      Badge generates a small badge to the top-right of its child(ren).
+    </view>
+  </view>
+  <view class="secondary-title">Simple Badges</view>
+  <view class="description">Examples of badges containing text, using primary and secondary colors. The badge is applied to its children</view>
+  <view class="demo">
+    <M-Badge style="margin-right:30rpx;" color="primary" badgeContent="7">
       <M-Button color="secondary" variant="raised">Button</M-Button>
-  </M-Badge>
-  <M-Badge color="primary" badgeContent="7">
-    <M-Avatar>
-      <M-Icon>add</M-Icon>
-    </M-Avatar>
-  </M-Badge>
-  <M-Badge color="secondary" badgeContent="7">
+    </M-Badge>
+    <M-Badge color="primary" badgeContent="7">
+      <M-Avatar>
+        <M-Icon>add</M-Icon>
+      </M-Avatar>
+    </M-Badge>
+    <M-Badge color="secondary" badgeContent="7">
       <M-Typography styles="padding:10rpx;">hhahah</M-Typography>
-  </M-Badge>
+    </M-Badge>
 
-  <M-Badge color="secondary" badgeContent="7">
-    <view style="padding:10rpx;">你好</view>
-  </M-Badge>
-  <M-Badge color="secondary" badgeContent="70">
-    <text style="padding:10rpx;">你好</text>
-  </M-Badge>
-
+    <M-Badge color="secondary" badgeContent="7">
+      <view style="padding:10rpx;">你好</view>
+    </M-Badge>
+    <M-Badge color="secondary" badgeContent="70">
+      <text style="padding:10rpx;">你好</text>
+    </M-Badge>
+  </view>
 </view>

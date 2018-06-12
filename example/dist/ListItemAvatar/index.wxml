@@ -2,5 +2,5 @@
   class="root classes" 
   style="{{styles}}"
 >
-  <slot></slot>
+ <slot></slot>
 </view>

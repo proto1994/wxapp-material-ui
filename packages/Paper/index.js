@@ -13,5 +13,5 @@ Component({
       value: 2
     }
   },
-  externalClasses: ['paper-class', 'card-class', 'classesa', 'classesb', 'classesc'],
+  externalClasses: ['paper-class', 'card-class', 'classesa', 'classesb', 'classesc', 'classes'],
 });

@@ -1,5 +1,5 @@
 <Modal 
-    class="root classes" 
+    classes="root" 
     style="{{styles}}" 
     open="{{open}}"
     bind:onClose="onClose"

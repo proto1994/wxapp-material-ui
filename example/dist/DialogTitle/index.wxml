@@ -1,0 +1,6 @@
+<view class="root classes" style="{{styles}}">
+  <block wx:if="{{disableTypography}}">
+    <slot></slot>
+  </block>
+  <Typography variant="title" wx:else><slot></slot></Typography>
+</view>

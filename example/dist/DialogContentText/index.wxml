@@ -1,0 +1,5 @@
+<view class="root classes" style="{{styles}}">
+  <Typography variant="subheading">
+    <slot></slot>
+  </Typography>
+</view>

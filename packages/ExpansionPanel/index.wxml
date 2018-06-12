@@ -7,7 +7,7 @@
       <block wx:if="{{!disabled}}">
           <Icon 
           classes="expand-icon" 
-          styles="{{expanded ? 'transform: translateY(-50%) rotate(0deg)':'transform: translateY(-50%) rotate(180deg)'}}"
+          styles="{{expanded ? 'transform: translateY(-50%) rotate(180deg)':'transform: translateY(-50%) rotate(0deg)'}}"
         >{{expandIcon}}</Icon>
       </block>
     </view>

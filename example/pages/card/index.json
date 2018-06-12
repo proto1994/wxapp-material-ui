@@ -5,6 +5,7 @@
         "M-CardMedia": "../../../dist/CardMedia/index",
         "M-CardActions": "../../../dist/CardActions/index",
         "M-Typography": "../../../dist/Typography/index",
-        "M-Button": "../../../dist/Button/index"
+        "M-Button": "../../../dist/Button/index",
+        "Menu": "../components/menu"
     } 
 }

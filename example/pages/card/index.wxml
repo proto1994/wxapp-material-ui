@@ -1,12 +1,15 @@
-<M-Card>
+<Menu title="Card"></Menu>
+<view class="root">
+  <M-Card>
+    <M-CardContent>
+      <M-Typography color="textSecondary">word of Day</M-Typography>
+      <M-Typography variant="headline">be bull new k</M-Typography>
+      <M-Typography color="textSecondary">object</M-Typography>
+      <M-Typography>well meaning and kindly</M-Typography>
+    </M-CardContent>
+    <M-CardActions>
+      <M-Button size="small">Learn More</M-Button>
+    </M-CardActions>
+  </M-Card>
+</view>
 
-  <M-CardContent>
-    <M-Typography color="textSecondary">word of Day</M-Typography>
-    <M-Typography variant="headline">be bull new k</M-Typography>
-    <M-Typography color="textSecondary">object</M-Typography>
-    <M-Typography>well meaning and kindly</M-Typography>
-  </M-CardContent>
-  <M-CardActions>
-    <M-Button size="small">Learn More</M-Button>
-  </M-CardActions>
-</M-Card>

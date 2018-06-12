@@ -3,7 +3,6 @@
         "ExpansionPanel": "../../../dist/ExpansionPanel/index",
         "ExpansionPanelActions": "../../../dist/ExpansionPanelActions/index",
         "ExpansionPanelDetails": "../../../dist/ExpansionPanelDetails/index",
-        "ExpansionPanelSummary": "../../../dist/ExpansionPanelSummary/index",
         "Collapse": "../../../dist/Collapse/index",
         "M-Button": "../../../dist/Button/index",
         "Divider": "../../../dist/Divider/index",

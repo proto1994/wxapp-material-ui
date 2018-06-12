@@ -1,10 +1,10 @@
-<view>
+<Menu title="Avatar"></Menu>
+<view class="root">
     <M-Avatar
       styles="width: 150rpx;height:150rpx;"
       src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg"
       >
     </M-Avatar>
-
     <M-Avatar
       src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg"
       >

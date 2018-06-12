@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "Icon": "../../../dist/Icon/index",
+    "M-Button": "../../../dist/Button/index",
+    "AppBar": "../../../dist/AppBar/index",
+    "Drawer": "../../../dist/Drawer/index",
+    "Typography": "../../../dist/Typography/index"
+  } 
+}

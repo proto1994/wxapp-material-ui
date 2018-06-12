@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.91",
+	"libVersion": "2.0.8",
 	"appid": "wx71aa9145eec2afea",
 	"projectname": "wxapp-material-ui",
 	"isGameTourist": false,
@@ -108,6 +108,12 @@
 					"id": 12,
 					"name": "expansion",
 					"pathName": "pages/expansionPanel/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "dialog",
+					"pathName": "pages/dialog/index",
 					"query": ""
 				}
 			]

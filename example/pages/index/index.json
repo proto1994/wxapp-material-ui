@@ -8,6 +8,7 @@
         "ListItem": "../../../dist/ListItem/index",
         "ListItemIcon": "../../../dist/ListItemIcon/index",
         "ListItemText": "../../../dist/ListItemText/index",
-        "Typography": "../../../dist/Typography/index"
+        "Typography": "../../../dist/Typography/index",
+        "Menu": "../components/menu"
     } 
 }

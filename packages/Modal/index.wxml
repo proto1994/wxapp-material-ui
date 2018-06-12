@@ -1,9 +1,8 @@
 <view
-  class="root classes {{open ? 'enter':'exit'}} scale-in-center" 
-  style="{{styles}}"
-  bindtap="bindtap"
->
-  <view style="opacity: {{open ? 1 : 0}}" class="animate"></view>
-  <slot></slot>
-</view>
-
+    catchtouchmove='true'       
+  class="root classes {{open ? 'enter':'exit'}} scale-in-center" style="{{styles}}">
+  <view style="opacity: {{open ? 1 : 0}}"  bindtap="bindtap" class="animate"></view>
+  <view capture-catch="test">
+    <slot></slot>
+  </view>
+  </view>

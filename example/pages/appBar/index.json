@@ -1,8 +1,9 @@
 {
     "usingComponents": {
+        "Icon": "../../../dist/Icon/index",
+        "M-Button": "../../../dist/Button/index",
         "AppBar": "../../../dist/AppBar/index",
         "Typography": "../../../dist/Typography/index",
-        "M-Icon": "../../../dist/Icon/index",
-        "M-Button": "../../../dist/Button/index"
+        "Menu": "../components/menu"
     } 
 }

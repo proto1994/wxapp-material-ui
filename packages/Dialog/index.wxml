@@ -1,0 +1,18 @@
+<Modal 
+    classes="root" 
+    style="{{styles}}" 
+    open="{{open}}"
+    bind:onClose="onClose"
+    >
+  <view class="transition" wx:if="{{open}}"> 
+    <Paper 
+      square 
+      elevation="24" 
+      classes="paper" 
+      classesa="{{fullScreen ? 'paper-full-screen' : ''}}"
+      classesb="{{fullWidth ? 'paper-full-width' : ''}}"
+    >
+      <slot></slot>
+    </Paper>
+  </view>
+</Modal>

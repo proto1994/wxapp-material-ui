@@ -1,57 +1,9 @@
-<template name="routes" >
-  <view class="routes">
-    <navigator url="../appBar/index">APP Bar</navigator>
-    <navigator url="../avatar/index">Avatars</navigator>
-    <navigator url="../badges/index">Badges</navigator>
-    <navigator url="../button/index">Button</navigator>
-    <navigator url="../card/index">Cards</navigator>
-    <navigator url="../chip/index">Chip</navigator>
-    <navigator url="../drawer/index">Drawer</navigator>
-    <navigator url="../expansionPanel/index">ExpansionPanel</navigator>
-    <navigator url="../grid/index">Grid</navigator>
-    <navigator url="../list/index">List</navigator>
-    <navigator url="../modal/index">Modal</navigator>
-    <navigator url="../typography/index">Typography</navigator>
-  </view>
-</template>
 <view class="root">
-  <!-- <view class="hd">
-    <view class="title">Material UI</view>
-    <view class="description">
-      基于Google's Material Design的微信小程序组件
-    </view>
-  </view>
-  <view class="item"><navigator url="../appBar/index">App Bar</navigator></view>
-  <view class="item"><navigator url="../avatar/index">Avatars</navigator></view>
-  <view class="item"><navigator url="../badges/index">Badges</navigator></view>
-  <view class="item"><navigator url="../button/index">Button</navigator></view>
-  <view class="item"><navigator url="../card/index">Card</navigator></view>
-  <view class="item"><navigator url="../chip/index">Chips</navigator></view>
-  <view class="item"><navigator url="../drawer/index">Drawer</navigator></view>
-  <view class="item"><navigator url="../modal/index">Modal</navigator></view>
-  <view class="item"><navigator url="../list/index">List</navigator></view> -->
-  <AppBar position="static" color="primary">
-    <Icon bindtap="toggleDrawer" data-open="true" styles="margin-right: 20rpx;color:#fff;">menu</Icon>
-    <Typography variant="title" style="flex:1" color="inherit">
-    </Typography>
-    <M-Button styles="color: #fff;">github</M-Button>
-  </AppBar>
-
+  <Menu></Menu>
   <view class="profile">
-    <image class="logo" src="https://material-ui.com/static/images/material-ui-logo.svg"></image>
-    <view class="name">WXAPP MATERIAL UI</view>
+    <image class="logo" src="../images/logo.png"></image>
+    <view class="name">WXAPP MATERIAL MILK</view>
     <view class="desc">基于Google's Material Design 的小程序UI组件</view>
     <M-Button variant="raised" color="primary">GET STARTED</M-Button>
   </view>
-
-  <Drawer
-    open="{{open}}"
-    bind:onClose="closeDrawer"
-  >
-  <view class="material">
-    <view class="material-name">Material-UI</view>
-    <view class="material-version">1.0.0</view>
-  </view>
-  <template is="routes"></template>
-  </Drawer>
 </view>

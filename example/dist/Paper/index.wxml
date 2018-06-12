@@ -1,4 +1,4 @@
-<view class="paper-class card-class paper {{!square ? 'rounded' : ''}} m-ui__shadow{{elevation}} classesa classesb classesc"
+<view class="paper-class card-class paper {{!square ? 'rounded' : ''}} m-ui__shadow{{elevation}} classes classesa classesb classesc"
   style="{{styles}}"
 >
   <slot></slot>

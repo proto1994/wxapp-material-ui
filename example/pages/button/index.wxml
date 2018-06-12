@@ -1,6 +1,15 @@
-<view class="page">
-  <view>
-    <view>Flat Buttons</view>
+<Menu title="Button"></Menu>
+<view class="root">
+  <view class="hd">
+    <view class="title">Buttons</view>
+    <view class="description">
+      Buttons communicate the action that will occur when the user touches them. Material buttons trigger an ink reaction on press.
+      They may display text, imagery, or both. Flat buttons and raised buttons are the most commonly used types.
+    </view>
+  </view>
+  <view class="secondary-title">Flat Buttons</view>
+  <view class="description">Flat buttons are text-only buttons. They may be used in dialogs, toolbars, or inline. They do not lift, but fill with color on press.</view>
+  <view class="demo">
     <M-Button bindtap="bindtap">default
     </M-Button>
     <M-Button color="primary" bindtap="bindtap">primary
@@ -12,8 +21,10 @@
     <M-Button url="/pages/index/index">jump
     </M-Button>
   </view>
-  <view>
-    <view>Outlined Buttons</view>
+
+  <view class="secondary-title">Outlined Buttons</view>
+  <view class="description">Outlined buttons are text-only buttons with medium emphasis. They behave like flat buttons but have an outline and are typically used for actions that are important, but aren’t the primary action in an app</view>
+  <view class="demo">
     <M-Button variant="outlined">default
     </M-Button>
 
@@ -28,8 +39,9 @@
 
   </view>
 
-  <view>
-    <view>Raised Buttons</view>
+  <view class="secondary-title">Raised Buttons</view>
+  <view class="description">Raised buttons are rectangular-shaped buttons. They may be used inline. They lift and display ink reactions on press.</view>
+  <view class="demo">
     <M-Button variant="raised">default
     </M-Button>
 
@@ -41,11 +53,14 @@
 
     <M-Button disabled variant="raised" color="primary">disbaled
     </M-Button>
-
   </view>
 
-  <view>
-    <view>Floating Action Buttons</view>
+  <view class="secondary-title">Floating Action Buttons</view>
+  <view class="description">
+      A floating action button represents the primary action in an application. Shaped like a circled icon floating above the UI, it has an ink wash upon focus and lifts upon selection. When pressed, it may contain more related actions.
+      Only one floating action button is recommended per screen to represent the most common action.
+  </view>
+  <view class="demo">
     <M-Button variant="fab">
       <M-Icon>book</M-Icon>
     </M-Button>
@@ -63,8 +78,11 @@
     </M-Button>
   </view>
 
-  <view>
-    <view>size</view>
+  <view class="secondary-title">size</view>
+  <view class="description">
+      Fancy larger or smaller buttons? Use the size or the mini property.
+  </view>
+  <view class="demo">
     <M-Button mini variant="fab">
       <M-Icon>book</M-Icon>
     </M-Button>
@@ -87,8 +105,11 @@
 
   </view>
 
-  <view>
-    <view>Buttons with icons and label</view>
+  <view class="secondary-title">Buttons with icons and label</view>
+  <view class="description">
+      Sometimes you might want to have icons for certain button to enhance the UX of the application as we recognize logos more easily than plain text. For example, if you have a delete button you can label it with a dustbin icon.
+  </view>
+  <view class="demo">
     <M-Button variant="raised" color="primary">
       delete
       <M-Icon type="222" styles="margin-left:16rpx;">book</M-Icon>
