@@ -40,11 +40,55 @@ Component({
     loading: {
       type: Boolean,
       value: false
-    }
+    },
+    openType: {
+      type: String,
+      value: ''
+    },
+    hoverStopPropagation: {
+      type: Boolean,
+      value: false
+    },
+    hoverStayTime: {
+      type: Number,
+      value: 20
+    },
+    hoverStartTime: {
+      type: Number,
+      value: 70
+    },
+    lang: {
+      type: String,
+      value: 'zh_CN'
+    },
+    appParameter: {
+      type: String,
+      value: ''
+    },
+    sessionFrom: {
+      type: String,
+      value: ''
+    },
+    sendMessageTitle: {
+      type: String,
+      value: ''
+    },
+    sendMessagePath: {
+      type: String,
+      value: ''
+    },
+    sendMessageImg: {
+      type: String,
+      value: ''
+    },
+    sendMessageCard: {
+      type: Boolean,
+      value: false
+    },
   },
   externalClasses: ['button-class'],
   methods: {
-    bindtap(e) {
+    handleTap() {
       if (this.data.url) {
         wx.navigateTo({
           url: this.data.url,
@@ -53,6 +97,22 @@ Component({
           }
         })
       }
+      this.triggerEvent('click');
+    },
+    handleGetUserInfo(e) {
+      this.triggerEvent('getuserinfo', e);
+    },
+    handleGetPhoneNumber(e) {
+      this.triggerEvent('getphonenumber', e);
+    },
+    handleError(e) {
+      this.triggerEvent('error', e);
+    },
+    handleOpenSetting(e) {
+      this.triggerEvent('opensetting', e);
+    },
+    handleContact(e) {
+      this.triggerEvent('contact', e);
     }
   },
   data: {
@@ -65,7 +125,6 @@ Component({
     const raised = variant === 'raised';
     const outlined = variant === 'outlined';
     const flat = !raised && !fab;
-    console.log(this.disabled, 'disabled')
     let buttonClass = classnames(this.data.buttonClass, {
       'raised-button': raised || fab,
       'fab-button': fab,

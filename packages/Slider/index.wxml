@@ -1,5 +1,5 @@
 <view
-  class="root anchor-{{direction}} {{stop ? 'reset' : 'hidden'}} classes" 
+  class="root {{!stop ? 'anchor-'+direction : ''}} classes" 
   styles="{{styles}}"
 >
   <slot></slot>

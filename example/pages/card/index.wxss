@@ -1,6 +1,7 @@
 .root {
   padding: 30rpx 20rpx;
   background: #eee;
+  margin-top: 100rpx;
 }
 
 .title {
@@ -27,8 +28,42 @@
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  height: 100px;
+  min-height: 100px;
   align-items: center;
+  justify-content: center;
   align-content: space-around;
   padding: 10px;
 }
+
+.card {
+  display: flex;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.cover {
+  width: 302rpx;
+  height: 302rpx;
+}
+
+.icon {
+  width: 76rpx;
+  height: 76rpx;
+  text-align: center;
+  line-height: 76rpx !important;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  padding-left: 16rpx;
+  padding-bottom: 16rpx; 
+}
+ 

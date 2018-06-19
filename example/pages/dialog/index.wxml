@@ -1,3 +1,4 @@
+<Memu title="Dialog"></Memu>
 <view class="root" style="{{open ? 'overflow: hidden;' : ''}}">
   <view class="hd">
     <view class="title">Dialog</view>
@@ -10,17 +11,18 @@
   <view class="description">Simple dialogs can provide additional details or actions about a list item. For example, they can display avatars, icons,
     clarifying subtext, or orthogonal actions (such as adding an account).</view>
   <view class="demo">
-    <M-Button bindtap="bindtap">打开</M-Button>
+    <M-Button bindtap="bindtap" data-type="open1">打开</M-Button>
     <Dialog open="{{open1}}" bind:onClose="onClose">
       <DialogTitle>set backup account</DialogTitle>
       <view>
         <List>
           <ListItem button>
             <ListItemAvatar>
-              <M-Icon>person</M-Icon>
+              <Avatar styles="background: red;color: #fff;">
+                <M-Icon>person</M-Icon>
+              </Avatar>
             </ListItemAvatar>
-            <ListItemText>
-              <Typography>hongfeishi@gmail.com</Typography>
+            <ListItemText primary="hongfeishi@gmail.com">
             </ListItemText>
           </ListItem>
           <ListItem button>
@@ -29,8 +31,7 @@
                 <M-Icon>add</M-Icon>
               </Avatar>
             </ListItemAvatar>
-            <ListItemText>
-              <Typography>hongfeishi@gmail.com</Typography>
+            <ListItemText primary="hongfeishi@gmail.com">
             </ListItemText>
           </ListItem>
         </List>
@@ -40,8 +41,8 @@
   <view class="secondary-title">Alerts</view>
   <view class="description">Alerts are urgent interruptions, requiring acknowledgement, that inform the user about a situation.</view>
   <view class="demo">
-    <M-Button bindtap="bindtap">打开</M-Button>
-    <Dialog open="{{open}}" bind:onClose="onClose">
+    <M-Button bindtap="bindtap" data-type="open2">打开</M-Button>
+    <Dialog open="{{open2}}" bind:onClose="onClose2">
       <DialogTitle>Use Google's location service?</DialogTitle>
       <DialogContent>
         <DialogContentText>
@@ -54,6 +55,27 @@
           Disagree
         </M-Button>
         <M-Button color="primary">
+          Agree
+        </M-Button>
+      </DialogActions>
+    </Dialog>
+  </view>
+  <view class="description">You can also swap out the transition, the next example uses Slide.</view>
+  <view class="demo">
+    <M-Button bindtap="bindtap" data-type="open3">打开</M-Button>
+    <Dialog transition="bottom" open="{{open3}}" bind:onClose="onClose3">
+      <DialogTitle>Use Google's location service?</DialogTitle>
+      <DialogContent>
+        <DialogContentText>
+          Let Google help apps determine location. This means sending anonymous location data to
+          Google, even when no apps are running.
+        </DialogContentText>
+      </DialogContent>
+      <DialogActions>
+        <M-Button color="primary" bindtap="onClose3">
+          Disagree
+        </M-Button>
+        <M-Button color="primary" bindtap="onClose3">
           Agree
         </M-Button>
       </DialogActions>

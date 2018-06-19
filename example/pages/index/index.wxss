@@ -1,4 +1,5 @@
 .root {
+  margin-top: 200rpx;
 }
 
 .profile {

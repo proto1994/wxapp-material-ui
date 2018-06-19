@@ -6,7 +6,7 @@
         The App bar, formerly known as the action bar in Android, 
         is a special kind of toolbar that’s used for branding, navigation, 
         search, and actions
-      </view>
+    </view>
   </view>
 
   <view class="secondary-title">基本的App Bar</view>
@@ -18,7 +18,7 @@
 
   <view class="secondary-title">带按钮的AppBar</view>
   <AppBar position="static" color="secondary">
-    <Icon styles="margin-right: 20rpx">menu</Icon>
+    <Icon styles="margin-right: 20px">menu</Icon>
     <Typography variant="title" style="flex:1" color="inherit">
       Title
     </Typography>

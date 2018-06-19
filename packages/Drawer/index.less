@@ -1,10 +1,9 @@
 @import '../styles/index.less';
 .root {
-  height: 1px;
   margin: 0; // Reset browser default style.
   border: none;
   flex-shrink: 0;
-  background-color: @lightTextDivider;
+  // background-color: @lightTextDivider;
 }
 
 .docked {
@@ -19,20 +18,24 @@
   z-index: @drawer;
   position: fixed;
   top: 0;
+  background: #fff;
   // We disable the focus ring for mouse, touch and keyboard users.
   // At some point, it would be better to keep it for keyboard users.
   // :focus-ring CSS pseudo-class will help.
   outline: 'none',
 }
 .paper-anchor-left {
+  .paper();
   left: 0;
   right: auto;
 }
 .paper-anchor-right {
+  .paper();
   left: auto;
   right: 0;
 }
 .paper-anchor-top {
+  .paper();
   top: 0;
   left: 0;
   bottom: auto;
@@ -41,6 +44,7 @@
   max-height: 100vh; 
 }
 .paper-anchor-bottom {
+  .paper();
   top: auto;
   left: 0;
   bottom: 0;
@@ -88,4 +92,32 @@
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+
+.left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  top: auto;
+}
+.top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
 }

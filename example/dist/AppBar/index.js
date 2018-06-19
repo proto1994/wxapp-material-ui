@@ -1,3 +1,4 @@
+import classnames from '../lib/classnames.js';
 Component({
   properties: {
     styles: {

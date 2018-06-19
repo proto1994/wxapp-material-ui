@@ -17,5 +17,4 @@
   white-space: nowrap;
   word-wrap: normal;
   -webkit-font-smoothing: antialiased;
-  color: rgba(0, 0, 0, 0.54);
 }

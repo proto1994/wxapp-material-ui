@@ -1,5 +1,5 @@
 <view>
-  <AppBar position="static" color="primary">
+  <AppBar position="fixed" color="primary">
     <Icon bindtap="openDrawer" data-open="true" styles="margin-right: 20rpx;color:#fff;">menu</Icon>
     <M-Button styles="color: #fff;font-size:40rpx;">{{title}}</M-Button>
     <Typography variant="title" style="flex:1" color="inherit">
@@ -25,6 +25,7 @@
       <navigator url="../modal/index">Modal</navigator>
       <navigator url="../paper/index">Paper</navigator>
       <navigator url="../typography/index">Typography</navigator>
+      <navigator url="../dialog/index">Dialog</navigator>
     </view>
   </Drawer>
 </view>

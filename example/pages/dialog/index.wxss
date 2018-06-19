@@ -1,6 +1,7 @@
 .root {
   padding: 30rpx 20rpx;
   height: 4000rpx;
+  margin-top: 100rpx;
 }
 
 .title {

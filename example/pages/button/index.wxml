@@ -8,9 +8,10 @@
     </view>
   </view>
   <view class="secondary-title">Flat Buttons</view>
-  <view class="description">Flat buttons are text-only buttons. They may be used in dialogs, toolbars, or inline. They do not lift, but fill with color on press.</view>
+  <view class="description">Flat buttons are text-only buttons. They may be used in dialogs, toolbars, or inline. They do not lift, but fill with color
+    on press.</view>
   <view class="demo">
-    <M-Button bindtap="bindtap">default
+    <M-Button bindtap="bindtap" bind:click="handleTap">default
     </M-Button>
     <M-Button color="primary" bindtap="bindtap">primary
     </M-Button>
@@ -23,7 +24,8 @@
   </view>
 
   <view class="secondary-title">Outlined Buttons</view>
-  <view class="description">Outlined buttons are text-only buttons with medium emphasis. They behave like flat buttons but have an outline and are typically used for actions that are important, but aren’t the primary action in an app</view>
+  <view class="description">Outlined buttons are text-only buttons with medium emphasis. They behave like flat buttons but have an outline and are
+    typically used for actions that are important, but aren’t the primary action in an app</view>
   <view class="demo">
     <M-Button variant="outlined">default
     </M-Button>
@@ -57,8 +59,9 @@
 
   <view class="secondary-title">Floating Action Buttons</view>
   <view class="description">
-      A floating action button represents the primary action in an application. Shaped like a circled icon floating above the UI, it has an ink wash upon focus and lifts upon selection. When pressed, it may contain more related actions.
-      Only one floating action button is recommended per screen to represent the most common action.
+    A floating action button represents the primary action in an application. Shaped like a circled icon floating above the UI,
+    it has an ink wash upon focus and lifts upon selection. When pressed, it may contain more related actions. Only one floating
+    action button is recommended per screen to represent the most common action.
   </view>
   <view class="demo">
     <M-Button variant="fab">
@@ -80,7 +83,7 @@
 
   <view class="secondary-title">size</view>
   <view class="description">
-      Fancy larger or smaller buttons? Use the size or the mini property.
+    Fancy larger or smaller buttons? Use the size or the mini property.
   </view>
   <view class="demo">
     <M-Button mini variant="fab">
@@ -107,17 +110,26 @@
 
   <view class="secondary-title">Buttons with icons and label</view>
   <view class="description">
-      Sometimes you might want to have icons for certain button to enhance the UX of the application as we recognize logos more easily than plain text. For example, if you have a delete button you can label it with a dustbin icon.
+    Sometimes you might want to have icons for certain button to enhance the UX of the application as we recognize logos more
+    easily than plain text. For example, if you have a delete button you can label it with a dustbin icon.
   </view>
   <view class="demo">
     <M-Button variant="raised" color="primary">
       delete
       <M-Icon type="222" styles="margin-left:16rpx;">book</M-Icon>
     </M-Button>
-
     <M-Button variant="raised" color="secondary">
       <M-Icon type="222" styles="margin-right:16rpx;">chat</M-Icon>
       chat
+    </M-Button>
+    <M-Button variant="raised" color="secondary" open-type="getUserInfo" bind:getuserinfo="handleGetUserInfo">
+      <M-Icon type="222" styles="margin-right:16rpx;">person_outline</M-Icon>
+      person_outline
+    </M-Button>
+
+    <M-Button variant="raised" color="secondary" open-type="getPhoneNumber" bind:getphonenumber="handleGetPhoneNumber">
+      <M-Icon type="222" styles="margin-right:16rpx;">local_phone</M-Icon>
+        local_phone
     </M-Button>
   </view>
 </view>

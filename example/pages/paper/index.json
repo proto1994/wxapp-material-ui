@@ -1,5 +1,7 @@
 {
     "usingComponents": {
-        "Paper": "../../../dist/Paper/index"
+        "Paper": "../../../dist/Paper/index",
+        "Typography": "../../../dist/Typography/index",
+        "Menu": "../components/menu"
     } 
 }

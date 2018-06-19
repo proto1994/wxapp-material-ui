@@ -28,6 +28,7 @@
     </list>
   </view>
 </template>
+<Menu title="Drawer"></Menu>
 <view class="root">
   <view class="hd">
     <view class="title">drawer</view>

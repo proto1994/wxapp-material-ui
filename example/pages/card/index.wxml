@@ -1,15 +1,82 @@
 <Menu title="Card"></Menu>
 <view class="root">
-  <M-Card>
-    <M-CardContent>
-      <M-Typography color="textSecondary">word of Day</M-Typography>
-      <M-Typography variant="headline">be bull new k</M-Typography>
-      <M-Typography color="textSecondary">object</M-Typography>
-      <M-Typography>well meaning and kindly</M-Typography>
-    </M-CardContent>
-    <M-CardActions>
-      <M-Button size="small">Learn More</M-Button>
-    </M-CardActions>
-  </M-Card>
-</view>
+  <view class="hd">
+    <view class="title">Card</view>
+    <view class="description">
+      A card is a sheet of material that serves as an entry point to more detailed information. Cards display content composed
+      of different elements whose size or supported actions vary. Cards are a convenient means of displaying content composed
+      of different elements. They’re also well-suited for showcasing elements whose size or supported actions vary, like
+      photos with captions of variable length.
+    </view>
+  </view>
+  <view class="secondary-title">Simple Card</view>
+  <view class="description">Although cards can support multiple actions, UI controls, and an overflow menu, use restraint and remember that cards are
+    entry points to more complex and detailed information.</view>
+  <view class="demo">
+    <M-Card>
+      <M-CardContent>
+        <M-Typography color="textSecondary">word of Day</M-Typography>
+        <M-Typography variant="headline">be bull new k</M-Typography>
+        <M-Typography color="textSecondary">object</M-Typography>
+        <M-Typography>well meaning and kindly</M-Typography>
+      </M-CardContent>
+      <M-CardActions>
+        <M-Button size="small">Learn More</M-Button>
+      </M-CardActions>
+    </M-Card>
+  </view>
 
+  <view class="secondary-title">Media</view>
+  <view class="description">Example of a card using an image to reinforce the content.</view>
+  <view class="demo">
+    <M-Card styles="max-width: 345px;">
+      <M-CardMedia styles="width: 100%;height: 194px;" src="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"></M-CardMedia>
+      <M-CardContent>
+        <M-Typography gutterBottom variant="headline">
+          Lizard
+        </M-Typography>
+        <M-Typography>
+          Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
+        </M-Typography>
+      </M-CardContent>
+      <M-CardActions>
+        <M-Button size="small" color="primary">
+          Share
+        </M-Button>
+        <M-Button size="small" color="primary">
+          Learn More
+        </M-Button>
+      </M-CardActions>
+    </M-Card>
+  </view>
+
+  <view class="secondary-title">UI Controls</view>
+  <view class="description">
+    <view>Supplemental actions within the card are explicitly called out using icons, text, and UI controls, typically placed at
+      the bottom of the card.</view>
+    <view style="margin-top: 10px;">Here's an example of a media control card.</view>
+  </view>
+  <view class="demo">
+    <M-Card classes="card">
+      <view class="details">
+        <M-CardContent classes="content">
+          <M-Typography variant="headline">Live From Space</M-Typography>
+          <M-Typography variant="subheading" color="textSecondary">
+            Mac Miller
+          </M-Typography>
+        </M-CardContent>
+        <view class="controls">
+          <M-Icon classes="icon">skip_previous</M-Icon>
+          <M-Icon classes="icon" styles="font-size: 60rpx;">play_arrow</M-Icon>
+          <M-Icon classes="icon">skip_next</M-Icon>
+        </view>
+      </view>
+      <M-CardMedia classes="cover" src="https://material-ui.com/static/images/cards/live-from-space.jpg"></M-CardMedia>
+    </M-Card>
+  </view>
+
+  <view class="secondary-title">Complex Interaction</view>
+  <view class="description">
+    <view>On desktop, card content can expand.</view>
+  </view>
+</view>

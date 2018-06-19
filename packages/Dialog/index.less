@@ -28,3 +28,33 @@
   max-height: 100vh;
   border-radius: 0;
 }
+
+.content {
+  visibility: hidden;
+  transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.transition-left {
+  visibility: visible;
+  transform: translateX(-500px);
+}
+
+.transition-right {
+  visibility: visible;
+  transform: translateX(500px);
+}
+
+.transition-bottom {
+  visibility: visible;
+  transform: translateY(500px);
+}
+
+.transition-top {
+  visibility: visible;
+  transform: translateY(-500px);
+}
+
+.reset {
+  visibility: visible;
+  transform: translate(0, 0);
+}

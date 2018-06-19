@@ -78,14 +78,14 @@
   position: static;
 }
 .color-default {
-  background-color: #e0e0e0;
+  background-color: #e0e0e0 !important;
   color: #000;
 }
 .color-primary {
-  background-color: #2196f3;
+  background-color: #2196f3 !important;
   color: #fff;
 }
 .color-secondary {
-  background-color: #f50057;
+  background-color: #f50057 !important;
   color: #fff;
 }

@@ -6,6 +6,7 @@
         "ListItem": "../../dist/ListItem/index",
         "ListItemIcon": "../../dist/ListItemIcon/index",
         "ListItemText": "../../dist/ListItemText/index",
-        "Icon": "../../dist/Icon/index"
+        "Icon": "../../dist/Icon/index",
+        "Menu": "../components/menu"
     } 
 }

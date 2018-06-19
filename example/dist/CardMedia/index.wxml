@@ -1,4 +1,4 @@
-<view class="classes root" 
+<view class="root classes"  
   style="{{styles}}"
 >
   <image

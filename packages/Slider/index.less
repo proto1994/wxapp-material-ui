@@ -1,45 +1,19 @@
 @import '../styles/index.less';
 .root {
-  height: 100vh;
-  background: #fff;
-  position: absolute;
-  transition: transform .3s cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
   will-change: transform;
 }
 
 .anchor-left {
-  left: 0;
   transform: translateX(-500px);
-  right: auto;
 }
 .anchor-right {
-  left: auto;
-  right: 0;
   transform: translateX(500px);
 }
 .anchor-top {
-  top: 0;
-  left: 0;
-  bottom: auto;
-  right: 0;
-  height: auto;
-  max-height: 100vh; 
   transform: translateY(-500px);
 }
 .anchor-bottom {
-  top: auto;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: auto;
-  max-height: 100vh; 
   transform: translateY(500px);
 }
 
-.reset {
-  transform: translate(0, 0);
-}
-
-.hidden {
-  //visibility: hidden;
-}

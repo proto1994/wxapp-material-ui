@@ -4,9 +4,8 @@
     open="{{open}}"
     bind:onClose="onClose"
     >
-  <view class="transition" wx:if="{{open}}"> 
+  <view class="content {{open ? 'reset' : 'transition-'+transition}}"> 
     <Paper 
-      square 
       elevation="24" 
       classes="paper" 
       classesa="{{fullScreen ? 'paper-full-screen' : ''}}"

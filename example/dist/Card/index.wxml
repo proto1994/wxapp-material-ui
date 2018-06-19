@@ -1,5 +1,6 @@
-<Paper paper-class="card-class" 
-  card-class="card"
+<Paper 
+  classes="classes" 
+  classesa="card"
   elevation="{{raised ? 8 : 2}}"
   styles="{{styles}}"
 >

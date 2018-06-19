@@ -1,4 +1,4 @@
-<view class="card-content-class root" 
+<view class="root classes" 
   styles="{{styles}}"
 >
   <slot></slot>

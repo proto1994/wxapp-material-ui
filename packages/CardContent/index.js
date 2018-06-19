@@ -10,5 +10,5 @@ Component({
       value: ''
     }
   },
-  externalClasses: ['card-content-class']
+  externalClasses: ['classes']
 });

@@ -1,3 +1,19 @@
-<view style="padding: 33px;">
-  <Paper styles="padding:33px;" >哈哈哈</Paper>
+<Menu title="Paper"></Menu>
+<view class="root">
+  <view class="hd">
+    <view class="title">Paper</view>
+    <view class="description">
+      In Material Design, the physical properties of paper are translated to the screen. The background of an application resembles
+      the flat, opaque texture of a sheet of paper, and an application’s behavior mimics paper’s ability to be re-sized,
+      shuffled, and bound together in multiple sheets.
+    </view>
+  </view>
+  <Paper classes="paper" elevation="4">
+    <Typography variant="headline">
+      This is a sheet of paper.
+    </Typography>
+    <Typography>
+      Paper can be used to build surface or other elements for your application.
+    </Typography>
+  </Paper>
 </view>

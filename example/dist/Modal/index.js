@@ -6,20 +6,24 @@ Component({
     },
     open: {
       type: Boolean,
-      value: false
+      value: false,
+      observer: function(newVal, oldVal) {
+        if (!newVal) {
+          setTimeout(() => {
+            this.setData({exit: true});
+          }, 225)
+        } else {
+          this.setData({exit: false});
+        }
+      }
     }
   },
   data: {
-    exit: false
-  },
-  ready() {
-    this.setData({
-      exit: true
-    })
+    exit: true
   },
   externalClasses: ['classes'],
   methods: {
-    bindtap: function() {
+    onClose: function() {
       this.triggerEvent('onClose');
     },
     test: function() {

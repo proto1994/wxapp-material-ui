@@ -1,12 +1,6 @@
-<Modal 
-    classes="root" 
-    style="{{styles}}" 
-    open="{{open}}"
-    bind:onClose="onClose"
-    >
-  <M-Slider stop="{{open}}" direction="{{anchor}}">
-    <Paper square elevation="{{variant === 'temporary' ? elevation : 0}}" classes="paper" classesa="paper-anchor-{{anchor}}"
-      classesb="{{variant !== 'temporary' ? 'paper-anchor-docked-'+anchor : ''}}">
+<Modal classes="root" style="{{styles}}" open="{{open}}" bind:onClose="onClose">
+  <M-Slider stop="{{open}}" direction="{{anchor}}" classes="{{anchor}}">
+    <Paper square elevation="{{variant === 'temporary' ? elevation : 0}}" classes="paper-anchor-{{anchor}}">
       <slot></slot>
     </Paper>
   </M-Slider>

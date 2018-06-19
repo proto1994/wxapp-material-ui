@@ -1,15 +1,28 @@
 Page({
   data: {
-    open: false
+    open1: false,
+    open2: false,
+    open3: false,
   },
   bindtap(e) {
+    console.log(e);
     this.setData({
-      open: true
+      [e.target.dataset.type]: true
     })
   },
   onClose() {
     this.setData({
-      open: false
+      open1: false
+    })
+  },
+  onClose2() {
+    this.setData({
+      open2: false
+    })
+  },
+  onClose3() {
+    this.setData({
+      open3: false
     })
   }
 })

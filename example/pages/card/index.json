@@ -6,6 +6,8 @@
         "M-CardActions": "../../../dist/CardActions/index",
         "M-Typography": "../../../dist/Typography/index",
         "M-Button": "../../../dist/Button/index",
+        "M-Icon": "../../../dist/Icon/index",
+        "Collapse": "../../dist/Collapse/index",
         "Menu": "../components/menu"
     } 
 }

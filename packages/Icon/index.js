@@ -9,8 +9,5 @@ Component({
       value: ''
     }
   },
-  externalClasses: ['classes'],
-  attached() {
-    console.log(this.data, '333')
-  }
+  externalClasses: ['classes']
 });

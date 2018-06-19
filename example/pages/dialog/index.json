@@ -12,7 +12,9 @@
         "List": "../../../dist/List/index",
         "ListItem": "../../../dist/ListItem/index",
         "ListItemAvatar": "../../../dist/ListItemAvatar/index",
+        "ListItemText": "../../../dist/ListItemText/index",
         "Avatar": "../../../dist/Avatar/index",
-        "M-Icon": "../../../dist/Icon/index"
+        "M-Icon": "../../../dist/Icon/index",
+        "Memu": "../components/menu"
     } 
 }

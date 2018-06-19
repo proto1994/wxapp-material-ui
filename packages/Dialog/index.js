@@ -15,6 +15,10 @@ Component({
     fullWidth: {
       type: Boolean,
       value: false
+    },
+    transition: {
+      type: String,
+      value: ''
     }
   },
   externalClasses: ['classes'],
