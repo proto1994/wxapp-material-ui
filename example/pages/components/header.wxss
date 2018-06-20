@@ -1,0 +1,10 @@
+.title {
+  color: #000;
+  font-weight: bold;
+  font-size: 50rpx;
+  margin-bottom: 20rpx;
+}
+.description {
+  font-size: 30rpx;
+  margin-bottom: 40rpx;
+}

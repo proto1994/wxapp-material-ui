@@ -4,6 +4,7 @@
         "M-Avatar": "../../../dist/Avatar/index",
         "M-Icon": "../../../dist/Icon/index",
         "M-Button": "../../../dist/Button/index",
+        "IconButton": "../../../dist/IconButton/index",
         "M-Typography": "../../../dist/Typography/index",
         "Menu": "../components/menu"
     } 

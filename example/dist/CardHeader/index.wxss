@@ -49,8 +49,16 @@
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  padding: 16rpx 8rpx;
+  padding: 32rpx;
+}
+.content {
+  flex: 1 1 auto;
+}
+.avatar {
+  flex: 0 0 auto;
+  margin-right: 32rpx;
 }
 .action {
-  margin: 0 8rpx;
+  flex: 0 0 auto;
+  align-self: flex-start;
 }

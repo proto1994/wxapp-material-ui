@@ -4,10 +4,23 @@ Component({
       type: String,
       value: ''
     },
-    disableActionSpacing: {
-      type: Boolean,
-      value: false
+    avatar: {
+      type: String,
+      value: ''
+    },
+    title: {
+      type: String,
+      value: ''
+    },
+    subheader: {
+      type: String,
+      value: ''
+    },
+    action: {
+      type: String,
+      value: ''
     }
+
   },
   externalClasses: ['classes']
 });

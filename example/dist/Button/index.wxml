@@ -1,5 +1,5 @@
 <button 
-  class="{{buttonClass}} button-class"
+  class="{{buttonClass}} classes"
   disabled="{{disabled}}"
   hover-class="{{buttonHoverClass}}"
   bindtap="handleTap"

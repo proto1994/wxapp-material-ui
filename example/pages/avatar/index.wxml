@@ -1,24 +1,40 @@
 <Menu title="Avatar"></Menu>
 <view class="root">
-    <M-Avatar
-      styles="width: 150rpx;height:150rpx;"
-      src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg"
-      >
+  <view class="hd">
+    <view class="title">Avatars</view>
+    <view class="description">
+      Avatars are found throughout material design with uses in everything from tables to dialog menus
+    </view>
+  </view>
+
+  <view class="secondary-title">Image avatars</view>
+  <view class="description">Image avatars can be created by passing standard img props src or srcSet into the component</view>
+  <view class="demo">
+    <M-Avatar src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg">
     </M-Avatar>
-    <M-Avatar
-      src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg"
-      >
+    <M-Avatar styles="margin-left:40rpx;width:150rpx;height:150rpx;" src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg">
     </M-Avatar>
+  </view>
+
+  <view class="secondary-title">Icon avatars</view>
+  <view class="description">Icon avatars are created by passing an icon as children.</view>
+  <view class="demo">
     <M-Avatar styles="background:red">
-        <M-Icon>add</M-Icon>
+      <M-Icon>add</M-Icon>
     </M-Avatar>
-    <M-Avatar>
-        <M-Icon>folder</M-Icon>
+    <M-Avatar styles="margin: 0 40rpx;">
+      <M-Icon>folder</M-Icon>
     </M-Avatar>
     <M-Avatar styles="background:green">
-        <M-Icon>assignment</M-Icon>
+      <M-Icon>assignment</M-Icon>
     </M-Avatar>
-    
+  </view>
+
+  <view class="secondary-title">Letter avatars</view>
+  <view class="description">Avatars containing simple characters can be created by passing your string as children.</view>
+  <view class="demo">
     <M-Avatar>H</M-Avatar>
-    <M-Avatar>OP</M-Avatar>
+    <M-Avatar styles="margin: 0 40rpx;background:#ff5722">N</M-Avatar>
+    <M-Avatar styles="background: #673ab7;">OP</M-Avatar>
+  </view>
 </view>

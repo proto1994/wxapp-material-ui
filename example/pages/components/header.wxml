@@ -1,0 +1,6 @@
+<view class="hd">
+  <view class="title">{{header}}</view>
+  <view class="description">
+    {{description}}
+  </view>
+</view>

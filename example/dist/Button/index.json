@@ -1,4 +1,6 @@
 {
-    "component": true
-  
+    "component": true,
+    "usingComponents": {
+      "M-Icon": "../Icon/index"
+    }
 }

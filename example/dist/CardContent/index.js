@@ -8,6 +8,10 @@ Component({
     styles: {
       type: String,
       value: ''
+    },
+    last: {
+       type: Boolean,
+       value: false
     }
   },
   externalClasses: ['classes']

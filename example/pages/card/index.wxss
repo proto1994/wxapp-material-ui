@@ -67,3 +67,6 @@
   padding-bottom: 16rpx; 
 }
  
+.rotate {
+  transform: rotate(180deg);
+}

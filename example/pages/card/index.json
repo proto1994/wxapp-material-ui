@@ -4,8 +4,10 @@
         "M-CardContent": "../../../dist/CardContent/index",
         "M-CardMedia": "../../../dist/CardMedia/index",
         "M-CardActions": "../../../dist/CardActions/index",
+        "M-CardHeader": "../../../dist/CardHeader/index",
         "M-Typography": "../../../dist/Typography/index",
         "M-Button": "../../../dist/Button/index",
+        "IconButton": "../../../dist/IconButton/index",
         "M-Icon": "../../../dist/Icon/index",
         "Collapse": "../../dist/Collapse/index",
         "Menu": "../components/menu"

@@ -1,0 +1,5 @@
+<view class="secondary-title">{{title}}</view>
+<view class="description">{{description}}</view>
+<view class="demo" style="{{styles}}">
+  <slot></slot>
+</view>

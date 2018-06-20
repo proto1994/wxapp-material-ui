@@ -79,4 +79,53 @@
   <view class="description">
     <view>On desktop, card content can expand.</view>
   </view>
+
+  <view class="demo">
+    <M-Card classes="max-width: 750rpx;">
+      <M-CardHeader avatar="R" title="Shrimp and Chorizo Paella" subheader="September 14, 2016" action="more_vert">
+      </M-CardHeader>
+      <M-CardMedia src="https://material-ui.com/static/images/cards/paella.jpg" styles="width:675rpx;height:400rpx;">
+      </M-CardMedia>
+      <M-CardContent>
+        <M-Typography>
+          This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas
+          along with the mussels, if you like.
+        </M-Typography>
+      </M-CardContent>
+      <M-CardActions>
+        <IconButton>favorite</IconButton>
+        <IconButton>share</IconButton>
+        <IconButton classes="{{toggle ? 'rotate' : ''}}" styles=" transition: all .2s;" style="margin-left: auto;" bindtap="toggleTap">expand_more</IconButton>
+      </M-CardActions>
+      <Collapse in="{{toggle}}" timeout="auto">
+        <M-CardContent>
+          <M-Typography paragraph variant="body2">
+            Method:
+          </M-Typography>
+          <M-Typography paragraph>
+            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set aside for 10
+            minutes.
+          </M-Typography>
+          <M-Typography paragraph>
+            Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high
+            heat. Add chicken, shrimp and chorizo, and cook, stirring occasionally until lightly
+            browned, 6 to 8 minutes. Transfer shrimp to a large plate and set aside, leaving
+            chicken and chorizo in the pan. Add pimentón, bay leaves, garlic, tomatoes, onion,
+            salt and pepper, and cook, stirring often until thickened and fragrant, about 10
+            minutes. Add saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+          </M-Typography>
+          <M-Typography paragraph>
+            Add rice and stir very gently to distribute. Top with artichokes and peppers, and
+            cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes.
+            Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into
+            the rice, and cook again without stirring, until mussels have opened and rice is
+            just tender, 5 to 7 minutes more. (Discard any mussels that don’t open.)
+          </M-Typography>
+          <M-Typography>
+            Set aside off of the heat to let rest for 10 minutes, and then serve.
+          </M-Typography>
+        </M-CardContent>
+      </Collapse>
+    </M-Card>
+  </view>
 </view>

@@ -48,6 +48,6 @@
 .root {
   padding: 32rpx;
 }
-.root:last-child {
+.last-child {
   padding-bottom: 48rpx;
 }

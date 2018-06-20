@@ -1,0 +1,5 @@
+<view class="root classes" style="{{styles}}">
+  <M-Icon>
+    <slot></slot>
+  </M-Icon>
+</view>

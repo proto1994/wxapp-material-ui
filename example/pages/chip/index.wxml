@@ -1,3 +1,4 @@
+<Menu title="Chips"></Menu>
 <view class="root">
   <view class="hd">
     <view class="title">Chips</view>
@@ -7,13 +8,26 @@
     </view>
   </view>
 
-  <view class="secondary-title">基本Chip</view>
-  <Chip delete>哈哈</Chip>
-  <view class="secondary-title">带图片Chip</view>
-  <Grid  container alignItems="center">
-    <Chip src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg">测试测试测试测试</Chip>
-    <Chip avatar="M">测试测试测试测试</Chip>
-  </Grid>
+  <view class="secondary-title">Chip</view>
+  <view class="description">Examples of Chips, using an image Avatar, SVG Icon Avatar, "Letter" and (string) Avatar.</view>
+  <view class="demo">
+    <Chip delete>哈哈</Chip>
+  </view>
+
+  <view class="secondary-title">Chip array</view>
+  <view class="description">
+    An example of rendering multiple Chips from an array of values. Deleting a chip removes it from the array. Note that since
+    no onClick property is defined, the Chip can be focused, but does not gain depth while clicked or touched.
+  </view>
+  <view class="demo">
+    <Grid container alignItems="center">
+      <Chip src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg">测试测试测试测试</Chip>
+      <Chip avatar="M">测试测试测试测试</Chip>
+    </Grid>
+  </view>
+
   <view class="secondary-title">自定义图片Chip</view>
-  <Chip deleteIcon="done">测试测试</Chip>
+  <view class="demo">
+    <Chip deleteIcon="done">测试测试</Chip>
+  </view>
 </view>

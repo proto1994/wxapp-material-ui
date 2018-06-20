@@ -1,6 +1,9 @@
 {
     "component": true,
     "usingComponents": {
-      "Paper": "../Paper/index"
+      "Paper": "../Paper/index",
+      "Avatar": "../Avatar/index",
+      "Typography": "../Typography/index",
+      "M-Icon": "../Icon/index"
     }
 }

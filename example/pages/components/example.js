@@ -1,26 +1,16 @@
 Component({
   properties: {
-    styles: {
-      type: String,
-      value: ''
-    },
-    avatar: {
-      type: String,
-      value: ''
-    },
     title: {
       type: String,
       value: ''
     },
-    subheader: {
+    description: {
       type: String,
       value: ''
     },
-    action: {
+    styles: {
       type: String,
       value: ''
     }
-
   },
-  externalClasses: ['classes']
 });

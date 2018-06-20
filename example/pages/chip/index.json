@@ -1,6 +1,7 @@
 {
     "usingComponents": {
         "Chip": "../../../dist/Chip/index",
-        "Grid": "../../../dist/Grid/index"
+        "Grid": "../../../dist/Grid/index",
+        "Menu": "../components/menu"
     } 
 }

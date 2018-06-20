@@ -3,8 +3,19 @@
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  padding: @unit @unit / 2;
+  padding: @unit * 2;
 }
+
+.content {
+  flex: 1 1 auto;
+}
+
+.avatar {
+  flex: 0 0 auto;
+  margin-right: @unit * 2;
+}
+
 .action {
-  margin: 0 @unit / 2;
+  flex: 0 0 auto;
+  align-self: flex-start;
 }

@@ -1,6 +1,25 @@
-<view class="classes root {{!disableActionSpacing ? 'action':''}}" 
-  styles="{{styles}}"
->
-  <slot></slot>
-</view>
+<view class="root" styles="{{styles}}">
+  <view class="avatar" wx:if="{{avatar}}">
+    <Avatar>{{avatar}}</Avatar>
+  </view>
 
+  <view class="content">
+    <Typography 
+      variant="{{avatar ? 'body2' : 'headline'}}"
+      classes="title"
+    >
+      {{title}}
+    </Typography>
+    <Typography 
+      variant="{{avatar ? 'body2' : 'body1'}}"
+      color="textSecondary"
+      classes="subheader"
+      wx:if="{{subheader}}"
+    >
+      {{subheader}}
+    </Typography>
+  </view>
+  <view class="action">
+    <M-Icon>{{action}}</M-Icon>
+  </view>
+</view>

@@ -85,8 +85,12 @@ Component({
       type: Boolean,
       value: false
     },
+    icon: {
+      type: String,
+      value: ''
+    }
   },
-  externalClasses: ['button-class'],
+  externalClasses: ['classes'],
   methods: {
     handleTap() {
       if (this.data.url) {
