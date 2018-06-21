@@ -2,6 +2,7 @@
   class="root" 
   style="{{styles}}"
   hover-class="root-hover"    
+  bindtap="handleTap"
 >
   <Avatar 
     wx:if="{{avatar || src}}"
@@ -9,6 +10,12 @@
     src="{{src}}">
     {{avatar}}
   </Avatar>
-  <text class="label"><slot></slot></text>
-  <Icon wx:if="{{delete || deleteIcon != 'clear'}}" classes="delete-icon">{{deleteIcon}}</Icon>
+  <view class="label">
+    <slot></slot>
+  </view>
+  <M-Icon 
+    catchtap='handleDelete'       
+    wx:if="{{delete || deleteIcon != 'cancel'}}" 
+    styles="font-size: 48rpx;" 
+    classes="delete-icon">{{deleteIcon}}</M-Icon>
 </view>

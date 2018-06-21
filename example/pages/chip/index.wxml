@@ -11,7 +11,16 @@
   <view class="secondary-title">Chip</view>
   <view class="description">Examples of Chips, using an image Avatar, SVG Icon Avatar, "Letter" and (string) Avatar.</view>
   <view class="demo">
-    <Chip delete>哈哈</Chip>
+    <Chip class="margin">Basic Chip</Chip>
+    <Chip class="margin" avatar="MB">Clickable Chip</Chip>
+    <Chip class="margin" 
+          src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg" 
+          delete
+          bind:delete="handleDelete"
+          bind:click="handleClick"
+        >Deletetable Chip</Chip>
+    <Chip class="margin" avatar="M" delete>Clickable Deletable Chip</Chip>
+    <Chip class="margin" deleteIcon="done">Custom delete icon Chip</Chip>
   </view>
 
   <view class="secondary-title">Chip array</view>
@@ -20,10 +29,14 @@
     no onClick property is defined, the Chip can be focused, but does not gain depth while clicked or touched.
   </view>
   <view class="demo">
-    <Grid container alignItems="center">
-      <Chip src="https://material-ui-next.com/static/images/cards/contemplative-reptile.jpg">测试测试测试测试</Chip>
-      <Chip avatar="M">测试测试测试测试</Chip>
-    </Grid>
+    <Paper styles="padding: 10rpx;">
+      <Chip styles="margin: 0 10rpx 10rpx;" 
+            wx:for="{{chipData}}" 
+            delete
+            wx:key="{{item.key}}"
+            bind:delete="deleteChip" 
+            data-index="{{item.key}}">{{item.label}}</Chip>
+    </Paper>
   </view>
 
   <view class="secondary-title">自定义图片Chip</view>

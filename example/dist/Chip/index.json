@@ -2,6 +2,6 @@
     "component": true,
     "usingComponents": {
       "Avatar": "../Avatar/index",
-      "Icon": "../Icon/index"
+      "M-Icon": "../Icon/index"
     }
 }

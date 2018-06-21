@@ -69,6 +69,7 @@
   margin-right: -8rpx;
   height: 64rpx;
   width: 64rpx;
+  font-size: 32rpx;
 }
 .label {
   display: flex;

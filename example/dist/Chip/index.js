@@ -18,7 +18,15 @@ Component({
     },
     deleteIcon: {
       type: String,
-      value: 'clear'
+      value: 'cancel'
+    }
+  },
+  methods: {
+    handleTap: function(e) {
+      this.triggerEvent('click', e);
+    },
+    handleDelete: function(e) {
+      this.triggerEvent('delete', e);
     }
   },
   externalClasses: ['classes']

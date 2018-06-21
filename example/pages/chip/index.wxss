@@ -1,0 +1,4 @@
+.margin {
+  margin-right: 30rpx;
+  margin-bottom: 30rpx;
+}

@@ -2,6 +2,7 @@
     "usingComponents": {
         "Chip": "../../../dist/Chip/index",
         "Grid": "../../../dist/Grid/index",
-        "Menu": "../components/menu"
+        "Menu": "../components/menu",
+        "Paper": "../../../dist/Paper/index"
     } 
 }
