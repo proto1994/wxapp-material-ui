@@ -38,9 +38,4 @@
             data-index="{{item.key}}">{{item.label}}</Chip>
     </Paper>
   </view>
-
-  <view class="secondary-title">自定义图片Chip</view>
-  <view class="demo">
-    <Chip deleteIcon="done">测试测试</Chip>
-  </view>
 </view>

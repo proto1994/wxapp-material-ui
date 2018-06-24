@@ -1,3 +1,4 @@
+<Menu title="Expansion Pannel"></Menu>
 <view class="root">
   <view class="hd">
     <view class="title">Expansion Panel</view>
@@ -7,7 +8,7 @@
   </view>
   <view class="secondary-title">Simple Expansion Panel</view>
   <view class="demo">
-    <ExpansionPanel key="first">
+    <ExpansionPanel child="first">
       <view class="hah" slot="summary">
         哈哈哈
       </view>
@@ -34,18 +35,18 @@
       </ExpansionPanelDetails>
     </ExpansionPanel>
 
-    <ExpansionPanel disabled key="last">
+    <ExpansionPanel disabled child="last">
       <view class="hah" slot="summary">
         哈哈哈
       </view>
-      <ExpansionPanelDetails slot="detail">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</ExpansionPanelDetails>
+      <ExpansionPanelDetails slot="detail">hahah</ExpansionPanelDetails>
     </ExpansionPanel>
   </view>
 
   <view class="secondary-title">Secondary heading and Columns</view>
   <view class="description">Multiple columns can be used to structure the content, and a helper text may be added to the panel to assist the user.</view>
   <view class="demo">
-    <ExpansionPanel key="first" defaultExpanded>
+    <ExpansionPanel child="first" defaultExpanded>
       <view class="summary" slot="summary">
         <view class="column">
           <Typography>Location</Typography>
@@ -76,7 +77,7 @@
   <view class="secondary-title">Controlled Accordion</view>
   <view class="description">Extend the default panel behavior to create an accordion with the ExpansionPanel component.</view>
   <view class="demo">
-    <ExpansionPanel key="first" expanded="{{expanded == 'panel1'}}" bindchange="bindtap" data-expanded="panel1">
+    <ExpansionPanel child="first" expanded="{{expanded == 'panel1'}}" bindchange="bindtap" data-expanded="panel1">
       <view class="hah" slot="summary">
         哈哈哈
       </view>
@@ -94,7 +95,7 @@
       </view>
       <ExpansionPanelDetails slot="detail">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</ExpansionPanelDetails>
     </ExpansionPanel>
-    <ExpansionPanel expanded="{{expanded == 'panel4'}}" key="last" bindchange="bindtap" data-expanded="panel4">
+    <ExpansionPanel expanded="{{expanded == 'panel4'}}" child="last" bindchange="bindtap" data-expanded="panel4">
       <view class="hah" slot="summary">
         哈哈哈
       </view>

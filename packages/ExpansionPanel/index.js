@@ -19,7 +19,7 @@ Component({
       type: String,
       value: "expand_more"
     },
-    key: {
+    child: {
       type: String,
       value: ""
     },

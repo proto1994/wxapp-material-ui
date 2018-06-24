@@ -1,4 +1,4 @@
-<view class="root classes {{expanded ? 'expanded' : ''}} {{key != '' ? 'root-'+key+'-child' : ''}} ">
+<view class="root classes {{expanded ? 'expanded' : ''}} {{child != '' ? 'root-'+child+'-child' : ''}} ">
   <Paper classesa="{{disabled ? 'disabled':''}}" style="{{styles}}" elevation="1" square>
     <view class="summary" bindtap="handleChange">
       <view class="summary-content">

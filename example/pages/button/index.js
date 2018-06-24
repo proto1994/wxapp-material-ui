@@ -1,6 +1,5 @@
 Page({
   bindtap(e) {
-    console.log(e, 'eee');
   },
   handleTap() {
     console.log('father')

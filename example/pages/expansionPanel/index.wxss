@@ -1,30 +1,4 @@
-.root {
-  padding: 30rpx 20rpx;
-  background: #eee;
-}
 
-.title {
-  color: #000;
-  font-weight: bold;
-  font-size: 50rpx;
-  margin-bottom: 20rpx;
-}
-.description {
-  font-size: 30rpx;
-  margin-bottom: 40rpx;
-}
-.secondary-title {
-  font-size: 40rpx;
-  margin: 60rpx 0 20rpx;
-}
-.demo {
-  background: #fff;
-}
-.waring {
-  padding: 20rpx 0 0;
-  font-size: 26rpx;
-  color: red;
-}
 .summary {
   width: 100%;
   display: flex;
@@ -46,4 +20,12 @@
   border-left: 2px solid rgba(0,0,0,.3);
   padding: 16rpx 32rpx;
   margin-left: 20rpx;
+}
+
+.demo {
+  display: block;
+}
+
+.full {
+  width: 100%;
 }

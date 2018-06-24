@@ -9,6 +9,7 @@
         "ListItemAvatar": "../../../dist/ListItemAvatar/index",
         "ListItemText": "../../../dist/ListItemText/index",
         "Avatar": "../../../dist/Avatar/index",
-        "Icon": "../../../dist/Icon/index"
+        "Icon": "../../../dist/Icon/index",
+        "Menu": "../components/menu"
     } 
 }

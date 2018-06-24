@@ -7,6 +7,7 @@
         "M-Button": "../../../dist/Button/index",
         "Divider": "../../../dist/Divider/index",
         "Chip": "../../../dist/Chip/index",
-        "Typography": "../../../dist/Typography/index"
+        "Typography": "../../../dist/Typography/index",
+        "Menu": "../components/menu"
     } 
 }

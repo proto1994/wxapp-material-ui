@@ -1,5 +1,6 @@
 {
     "usingComponents": {
-        "Grid": "../../../dist/Grid/index"
+        "Grid": "../../../dist/Grid/index",
+        "Menu": "../components/menu"
     } 
 }

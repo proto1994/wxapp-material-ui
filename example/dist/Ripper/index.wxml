@@ -5,11 +5,10 @@
     id="js-button-base"
     bindtouchstart="handletouchstart"
     bindtouchend="handletouchend"
-    style="{{styles}}"
     >
     <slot></slot>
     <view class="ripple-bd">
-      <view wx:if="{{rippleVisible}}" style="{{rippleStyles}}" class="ripple {{visible ? 'ripple-visible' : ''}}">
+      <view wx:for="{{ripples}}" style="{{rippleStyles}}" class="ripple {{visible ? 'ripple-visible' : ''}}">
         <view class="child {{leaving ? 'child-leaving':''}}" ></view>
       </view>
     </view>

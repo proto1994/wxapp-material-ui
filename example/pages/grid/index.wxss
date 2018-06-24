@@ -1,9 +1,3 @@
-view {
-  box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.87);
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  /* background: #fafafa; */
-}
 .card {
   padding: 10rpx;
   margin-bottom: 40rpx;
@@ -28,4 +22,12 @@ view {
 .grid-class {
   margin-top: 20rpx;
   padding: 24rpx;
+}
+
+.demo {
+  display: block;
+}
+
+.item {
+  padding: 30rpx;
 }

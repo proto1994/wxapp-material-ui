@@ -1,0 +1,3 @@
+<view wx:if="rippleVisible" style="{{styles}}" class="ripple {{visible ? 'ripple-visible' : ''}}">
+  <view class="child {{leaving ? 'child-leaving':''}}" ></view>
+</view>

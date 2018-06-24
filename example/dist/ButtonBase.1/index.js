@@ -1,10 +1,5 @@
 Component({
-  properties: {
-    styles: {
-      type: String,
-      value: ''
-    }
-  },
+  properties: {},
   externalClasses: ["classes"],
   data: {
     className: "child",
@@ -22,6 +17,16 @@ Component({
       this.start(e);
     },
     handletouchend(e) {
+      this.setData({
+        leaving: true
+      })
+      setTimeout(() => {
+        this.setData({
+          leaving: false,
+          visible: false,
+          rippleVisible: false
+        });
+      }, 550)
       this.stop(e);
     },
     start(e) {
@@ -56,37 +61,52 @@ Component({
           ) + rippleY}px;left:${-(rippleSize / 2) + rippleX}px;`;
 
           this.startTimerCommit = () => {
-            this.setData({
-              rippleVisible: true,
-              rippleStyles: rippleStyles,
-              visible: true
-            });
+            console.log('emit');
 
-            setTimeout(() => {
-              this.setData({
-                rippleStyles: rippleStyles,
-                visible: true,
-              })
-            }, 550)
-            setTimeout(() => {
-              this.setData({
-                leaving: true
-              });
-            }, 100);
+            this.createRipper();
           };
+          console.log('begin')
           this.startTimer = setTimeout(res => {
+            console.log('start');
             this.startTimerCommit();
             this.startTimerCommit = null;
           }, 80);
         })
         .exec();
     },
-    stop() {
+    createRipper() {
+      let ripples = this.data.rippers;
+      ripples = [
+        ...ripples,
+        
+      ]
       this.setData({
-        rippleVisible: false,
-        leaving: false,
-        visible: false
+        rippleVisible: true,
+        rippleStyles: rippleStyles,
+        visible: true
       });
+    },
+    stop() {
+      clearTimeout(this.startTimer);
+
+      if (this.startTimerCommit) {
+        console.log('stop')
+        this.startTimerCommit();
+        this.startTimerCommit = null;
+        this.startTimer = setTimeout(() => {
+          this.stop();
+        }, 0);
+        return;
+      }
+      this.startTimerCommit = null;
+      console.log('stop')
+
+      // if (this.data.rippleVisible) {
+      //     this.setData({
+      //       leaving: false,
+      //       visible: false
+      //     });
+      // }
     },
     bindtap(e) {}
   }

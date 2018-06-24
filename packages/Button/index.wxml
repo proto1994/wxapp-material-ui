@@ -1,26 +1,10 @@
-<button 
-  class="{{buttonClass}} classes"
-  disabled="{{disabled}}"
-  hover-class="{{buttonHoverClass}}"
-  bindtap="handleTap"
-  loading="{{loading}}"
-  style="{{styles}}"
-  open-type="{{openType}}"
-  hover-stop-propagation="{{hoverStopPropagation}}"
-  hover-start-time="{{hoverStartTime}}"
-  hover-stay-time="{{hoverStayTime}}"
-  lang="{{lang}}"
-  app-parameter="{{appParameter}}"
-  bindgetuserinfo="handleGetUserInfo"
-  bindgetphonenumber="handleGetPhoneNumber"
-  binderro="handleError"
-  bindopensetting="handleOpenSetting"
-  bindcontact="handleContact"
-  session-from="{{sessionFrom}}"
-  send-message-title="{{sendMessageTitle}}"
-  send-message-path="{{sendMessagePath}}"
-  send-message-img="{{sendMessageimg}}"
-  send-message-card="{{sendMessageCard}}"
-  >
-  <slot></slot>
-</button>
+<ButtonBase classes="{{'flat-'+color}}">
+  <button class="{{buttonClass}} classes" disabled="{{disabled}}"  bindtap="handleTap" loading="{{loading}}"
+    style="{{styles}}" open-type="{{openType}}" hover-stop-propagation="{{hoverStopPropagation}}" hover-start-time="{{hoverStartTime}}"
+    hover-stay-time="{{hoverStayTime}}" lang="{{lang}}" app-parameter="{{appParameter}}" bindgetuserinfo="handleGetUserInfo"
+    bindgetphonenumber="handleGetPhoneNumber" binderro="handleError" bindopensetting="handleOpenSetting" bindcontact="handleContact"
+    session-from="{{sessionFrom}}" send-message-title="{{sendMessageTitle}}" send-message-path="{{sendMessagePath}}" send-message-img="{{sendMessageimg}}"
+    send-message-card="{{sendMessageCard}}">
+    <slot></slot>
+  </button>
+</ButtonBase>

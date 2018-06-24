@@ -1,6 +1,7 @@
 {
     "component": true,
     "usingComponents": {
-      "M-Icon": "../Icon/index"
+      "M-Icon": "../Icon/index",
+      "ButtonBase": "../ButtonBase/index"
     }
 }

@@ -92,7 +92,7 @@ Component({
   },
   externalClasses: ['classes'],
   methods: {
-    handleTap() {
+    handleTap(e) {
       if (this.data.url) {
         wx.navigateTo({
           url: this.data.url,
