@@ -7,9 +7,7 @@
   <view class="content {{open ? 'reset' : 'transition-'+transition}}"> 
     <Paper 
       elevation="24" 
-      classes="paper" 
-      classesa="{{fullScreen ? 'paper-full-screen' : ''}}"
-      classesb="{{fullWidth ? 'paper-full-width' : ''}}"
+      classes="{{!fullScreen && !fullWidth ? 'paper':''}} {{fullScreen ? 'paper-full-screen' : ''}} {fullWidth ? 'paper-full-width' : ''}}" 
     >
       <slot></slot>
     </Paper>

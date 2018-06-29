@@ -61,9 +61,25 @@
   outline: none;
 }
 .paper-full-width {
+  display: flex;
+  margin: 64rpx;
+  flex-direction: column;
+  flex: 0 1 auto;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+  outline: none;
   width: 100vw;
 }
 .paper-full-screen {
+  display: flex;
+  margin: 64rpx;
+  flex-direction: column;
+  flex: 0 1 auto;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+  outline: none;
   margin: 0;
   width: 100vw;
   max-width: 100vw;

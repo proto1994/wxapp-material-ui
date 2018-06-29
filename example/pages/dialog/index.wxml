@@ -60,7 +60,7 @@
       </DialogActions>
     </Dialog>
   </view>
-  <view class="description">You can also swap out the transition, the next example uses Slide.</view>
+  <view class="description" style="margin-top: 10px;">You can also swap out the transition, the next example uses Slide.</view>
   <view class="demo">
     <M-Button bindtap="bindtap" data-type="open3">打开</M-Button>
     <Dialog transition="bottom" open="{{open3}}" bind:onClose="onClose3">
@@ -80,5 +80,11 @@
         </M-Button>
       </DialogActions>
     </Dialog>
+  </view>
+
+  <view class="secondary-title">Form dialogs</view>
+  <view class="description">Form dialogs allow users to fill out form fields within a dialog. For example, if your site prompts for potential subscribers to fill in their email address, they can fill out the email field and touch 'Submit'</view>
+  <view class="demo">
+    暂无
   </view>
 </view>

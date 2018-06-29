@@ -4,7 +4,8 @@
   "description": "基于material-ui的微信小程序组件",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node scripts/build-dev.js --color"
+    "dev": "node scripts/build-dev.js --color",
+    "deploy": "gh-pages -d docs/.vuepress/dist"
   },
   "author": "proto1994",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "accord": "^0.29.0",
     "classnames": "^2.2.5",
     "fs-extra": "^6.0.1",
+    "gh-pages": "^1.2.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.4",
     "gulp-less": "^3.5.0",
