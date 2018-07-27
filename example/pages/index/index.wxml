@@ -4,6 +4,6 @@
     <image class="logo" src="../images/logo.png"></image>
     <view class="name">WXAPP MATERIAL MILK</view>
     <view class="desc">基于Google's Material Design 的小程序UI组件</view>
-    <M-Button variant="raised" color="primary">GET STARTED</M-Button>
+    <M-Button url="/pages/appBar/index" variant="raised" color="primary">GET STARTED</M-Button>
   </view>
 </view>

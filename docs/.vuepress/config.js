@@ -1,6 +1,7 @@
 module.exports = {
   title: 'WXAPP MATERIAL UI',
   description: '基于Google design的小程序组件',
+  base: "/wxapp-material-ui/",
   themeConfig: {
     docsDir: 'docs',
     nav: [

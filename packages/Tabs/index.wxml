@@ -1,0 +1,5 @@
+<view 
+  class="root classes" 
+  style="{{styles}}"
+>
+</view>
